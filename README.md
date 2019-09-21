@@ -10,15 +10,15 @@ and a few common libraries such as AJAX and jQuery for those with experience, an
 Not sure where to start? <br /> <br />
 Our workshop is comprised of 3 separate segments, each with their own mini-projects, tutorials, and topics.
 <br />
-We are covering HTML/CSS for novices, where we focus specifically on building a person al website and deploying it with
+We are covering HTML/CSS for novices, where we focus specifically on building a personal website and deploying it with
 Github Pages. Building a personal portfolio can be a great way to separate yourself in the job/internship search. You can
 use your site to showcase your resume, contact info, and side and classroom projects. Plus, Github Pages is a free, easy way
 to deploy webpages.
 <br />
 For those who may already feel comfortable building static webpages with HTML/CSS, we invite you to check out our JavaScript section.
 Vanilla JavaScript (native, standards-based) is a really powerful language for DOM manipulation. While HTML and CSS are useful for
-designing static web-pages, JavaScript is integral for making those sites interactive. This includes tasks like manipulating text dynamically
-, listening to events, adding functionality to buttons, and data persistence. We've also linked to some resources on the document object model, and its relevance.  
+designing static web-pages, JavaScript is integral for making those sites interactive. This includes tasks like manipulating text dynamically,
+listening to events, adding functionality to buttons, and data persistence. We've also linked to some resources on the document object model, and its relevance.  
 <br />
 Lastly, we have a React workshop for those experienced with the aforementioned topics. React is a JavaScript library for building user interfaces. However, this label is a bit reductionist. React has a ton of its own libraries and packages, each of which alter its capabilities significantly. Inevitably, we won't be able to touch upon all of the libraries we'd like to given our time constraints, but I'd implore you to look more into React with the resources below, or contained on the React page itself, it's quite thorough and well-written.
 
