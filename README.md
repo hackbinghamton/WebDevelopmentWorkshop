@@ -34,20 +34,21 @@ Advanced: <a href="README.md">Building a React Single-Page App (SPAs)</a>
 
 # Technologies and Resources
 HTML/CSS: <br />
-<a href="">link 1</a> <br />
-<a href="">link 2</a> <br />
-<a href="">link 3</a> <br />
+
+<a href="https://sass-lang.com/documentation">SASS</a> <br />
+<a href="https://getbootstrap.com">Bootstrap - most common front-end library</a> <br />
+<a href="https://www.w3schools.com/">w3schools</a> <br />
 
 
 JavaScript: <br />
-<a href="">link 1</a> <br />
-<a href="">link 2</a> <br />
-<a href="">link 3</a> <br />
+W3schools could be duplicated here as well, as the site has equally in-depth sections on HTML, CSS, and JS.
+<a href="https://www.futurice.com/blog/reactive-mvc-and-the-virtual-dom">Reactive MVC and the Virtual DOM</a> <br />
 
 React: <br />
-<a href="">link 1</a> <br />
-<a href="">link 2</a> <br />
-<a href="">link 3</a> <br />
+For anyone that is interested in a deeper-dive into React.JS, this guide, (also created by a HackBU member) has a ton of useful information. It's a comprehensive overview on React and includes topics like npm, custom CSS, backend API integration, components, PWAs, and deployment.
+<a href="https://github.com/HackBinghamton/reactDemo">HackBU React Demo</a> <br />
+<a href="https://reactjs.org/docs/getting-started.html">React.JS Documentation</a> <br /> 
+
 
 <p float="left">
      <img src="http://www.jsweet.org/wp-content/uploads/2016/04/react-logo-300x289.png"
