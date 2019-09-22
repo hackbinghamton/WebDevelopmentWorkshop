@@ -28,8 +28,8 @@ Today's workshop is all about web development. After completing this workshop,
 we'd like you to feel a bit more comfortable with using the technologies we take a look at.
 For novices, we hope that you
 build off of our workshop to create your own personal website, either hosted on Github, or externally. Our JavaScript segment is designed to help those already knowledgeable on HTML and CSS feel comfortable with front-end JS and manipulating the DOM. Our mini-projects include: <br />
-Beginner:   <a href="README.md">Building a Personal Website and Hosting it with Github Pages</a> <br />
-Intermediate:   <a href="README.md">Taking a Website and Building it from Scratch</a> <br />
+Beginner:   <a href="GithubPagesGuide.md">Building a Personal Website and Hosting it with Github Pages</a> <br />
+Intermediate:   <a href="ReverseEngineering.md">Taking a Website and Building it from Scratch</a> <br />
 Advanced: <a href="README.md">Building a React Single-Page App (SPAs)</a>
 
 # Technologies and Resources
