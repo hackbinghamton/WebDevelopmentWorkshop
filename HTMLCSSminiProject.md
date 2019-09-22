@@ -86,11 +86,66 @@ If you are instead, like me, chosing not to reach for the stars and going bare b
 
 # STEP FOUR -- CSS Formatting
 
-//TODO
+Next, write your stylesheet using the CSS links back in the README. CSS is even less like a programming language than html. All you have to do is sort out some sections and then change variables within them. Below is the CSS for my website thus far.
 
-#STEP FIVE -- CSS Backgrounds
+```
+body {
+    margin: 0px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
 
-//TODO
+section {
+    height: 100vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    margin: 60px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+section h2 {
+    font-size: 3.5em;
+}
+
+section h3 {
+    font-size: 2em;
+}
+```
+
+As you edit your CSS pull up your website (by clicking the html file from the file explorer and opening it in your web browser) and see how you like the changes you're making.
+
+# STEP FIVE -- CSS Backgrounds
+
+To add images to your background, add this text to the bottom of section{} in your CSS:
+
+```
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+```
+
+and at the bottom of CSS add something like this:
+
+```
+#joke1 {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('back01stack.png');
+}
+
+#emailMeJokes {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('send_to_dan.png');
+}
+```
+
+Note that the pound signs correspond to the section ids in your HTML and the URLs link to images you have saved in the SAME FOLDER of your drive as the HTML file.
 
 
 
