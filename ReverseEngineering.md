@@ -7,15 +7,15 @@ The cool thing about web development is that you can learn by looking at other w
 
 ## This Will Be Short
 
-The purpose of this section (and really every HackBU workshop) is to give you what you need to go out and build something cool. These workshops are designed to give you the knowledge and fundamentals so that you can have the freedom to build whatever you'd lik, not just what we tell you. So this section is going to be relatively short. We're going to give you the tools to reverse engineering websites and let you apply that knowledge however you see fit. Of course, we're more than happy to help you in you pursuits! Reverse engineering sites is something that you learn by doing, **so we're going to give you the tools to do it and let you do it**. Let's get started!
+The purpose of this section (and really every HackBU workshop) is to give you what you need to go out and build something cool. These workshops are designed to give you the knowledge and fundamentals so that you can have the freedom to build whatever you'd like, not just what we tell you. So this section is going to be relatively short. We're going to give you the tools to reverse engineering websites and let you apply that knowledge however you see fit. Of course, we're more than happy to help you in you pursuits! Reverse engineering sites is something that you learn by doing, **so we're going to give you the tools to do it and let you do it**. Let's get started!
 
 ## Tools of the Trade
 
 You can reverse a site however you want to. With enough experience you could probably build a duplicate website simply from looking at it (this would require a bunch of time, experience, and probably guessing)!
 
-But what's the point of making it so hard on oursevles when there are resources available to help us?
+But what's the point of making it so hard on ourselves when there are resources available to help us?
 
-You guessed it! There is none, unless you want to do it like that, in which case it's totally cool (and impressive, cudos to you)!
+You guessed it! There is none, unless you want to do it like that, in which case it's totally cool (and impressive, kudos to you)!
 
 But for us mortals, let's look at some really useful tools for reversing a site!
 
@@ -60,12 +60,17 @@ You can also use the page inspector to see what your website looks like from a m
 
 ![mobile](images/mobile.png)
 
-
 ## Start Small
 
 When you start looking at sites to reverse engineer, start small. You don't want to bite off more than you can chew and overwhelm yourself.
 
 Find a simple site that *only displays information*. You don't want to pick a site that will allow you to input or manipulate data because those will be more complicated. Work your way up to those.
+
+### Website technology identifiers
+
+To see what a website is made of, try running it through [wapplyzer](https://www.wappalyzer.com/). It identifies technologies used on a website.
+
+### Try it yourself
 
 For example, you can use [our website](http://club.hackbu.org/)! It's fairly simple, and it's built to only show information about us.
 
