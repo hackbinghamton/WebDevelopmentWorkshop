@@ -47,7 +47,7 @@ W3schools could be duplicated here as well, as the site has equally in-depth sec
 React: <br />
 For anyone that is interested in a deeper-dive into React.JS, this guide, (also created by a HackBU member) has a ton of useful information. It's a comprehensive overview on React and includes topics like npm, custom CSS, backend API integration, components, PWAs, and deployment.
 <a href="https://github.com/HackBinghamton/reactDemo">HackBU React Demo</a> <br />
-<a href="https://reactjs.org/docs/getting-started.html">React.JS Documentation</a> <br /> 
+<a href="https://reactjs.org/docs/getting-started.html">React.JS Documentation</a> <br />
 
 
 <p float="left">
@@ -98,3 +98,7 @@ Section 3<br />
 Section 1<br />
 Section 2<br />
 Section 3<br />
+
+# Feedback
+
+If you attended our workshop, please leave feedback [here](https://forms.gle/P4TQ4NgPSHghCucd7).
