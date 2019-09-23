@@ -15,6 +15,10 @@ Here are some things you can do using JavaScript
 * Create digital art - [Example](https://dan.forys.uk/experiments/mesmerizer/)
 * Create mobile apps (using React Native)
 
+## Try it yourself
+
+Try [codepen](https://codepen.io/) is a great place to try out writing a quick interactive feature. For example, [here](https://codepen.io/award28/pen/KXpVLw) is a codepen that checks in members.
+
 ## Resources & References
 * [w3schools.com](https://www.w3schools.com/js/default.asp)
 * [React Native](https://facebook.github.io/react-native/)
