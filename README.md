@@ -41,11 +41,13 @@ HTML/CSS: <br />
 
 
 JavaScript: <br />
-W3schools could be duplicated here as well, as the site has equally in-depth sections on HTML, CSS, and JS.
+
+W3schools could be duplicated here as well, as the site has equally in-depth sections on HTML, CSS, and JS. <br />
 <a href="https://www.futurice.com/blog/reactive-mvc-and-the-virtual-dom">Reactive MVC and the Virtual DOM</a> <br />
 
 React: <br />
-For anyone that is interested in a deeper-dive into React.JS, this guide, (also created by a HackBU member) has a ton of useful information. It's a comprehensive overview on React and includes topics like npm, custom CSS, backend API integration, components, PWAs, and deployment.
+
+For anyone that is interested in a deeper-dive into React.JS, this guide, (also created by a HackBU member) has a ton of useful information. It's a comprehensive overview on React and includes topics like npm, custom CSS, backend API integration, components, PWAs, and deployment. <br />
 <a href="https://github.com/HackBinghamton/reactDemo">HackBU React Demo</a> <br />
 <a href="https://reactjs.org/docs/getting-started.html">React.JS Documentation</a> <br />
 
