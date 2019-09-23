@@ -72,7 +72,7 @@ To see what a website is made of, try running it through [wapplyzer](https://www
 
 ### Try it yourself
 
-For example, you can use [our website](http://club.hackbu.org/)! It's fairly simple, and it's built to only show information about us.
+For example, you can use [our website](http://club.hackbu.org/)! It's fairly simple, and it's built to only show information about us. If you get stuck or want to know more about how we actually created it, you can checkout [these slides](https://docs.google.com/presentation/d/1bX6HQMXUKYJUzKC9qZGvBqx3lvRG4918h8ktLvWXFOo/edit?usp=sharing) from the creators themselves. 
 
 As you gain more experience and knowledge, you can start moving up to more complicated and larger sites.
 
