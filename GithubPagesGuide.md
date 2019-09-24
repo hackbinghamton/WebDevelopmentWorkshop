@@ -21,7 +21,7 @@ Anything that is static, so mainly personal websites and blogs. Since it goes ha
   * https://artsy.github.io/ - A blog
 
 ## Steps
-In order to create and host a website, a GitHub account is required. Basic Git knowledge is helpful. If you want a reviw of Git/GitHub, look back at to our [Introduction to Programming and Starting a Personal Project](https://github.com/HackBinghamton/IntroToProgrammingWorkshop) workshop.
+In order to create and host a website, a GitHub account is required. Basic Git knowledge is helpful. If you want a review of Git/GitHub, look back at to our [Introduction to Programming and Starting a Personal Project](https://github.com/HackBinghamton/IntroToProgrammingWorkshop) workshop.
 
 If you are starting a website from a new repository, continue below. If you want to convert an existing repository to GitHub Pages, skip to the next subsection.
 
