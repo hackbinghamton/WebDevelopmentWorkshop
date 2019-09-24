@@ -25,14 +25,14 @@ But for us mortals, let's look at some really useful tools for reversing a site!
 
 The *Page Source* is simply the source code for a given website.
 
- A lot people may not recognize this, a lot of the code that powers websites is available to the users for viewing. The reason for this is that a browser is basically a fancy word processor that doesn't allow edits. By this, we mean that all a browser does is take in some code for a website and present that code to you (the user) in a way that's easy for you to consume. Specifically the web developer will tell the browser how to present their work to you.
+Although people may not recognize this, a lot of the code that powers websites is available to the users for viewing. The reason for this is that a browser is basically a fancy word processor that doesn't allow edits. By this, we mean that all a browser does is take in some code for a website and present that code to you (the user) in a way that's easy for you to consume. Specifically the web developer will tell the browser how to present their work to you.
 
 If you right click on a blank section of any website, the menu will have an option that says "View Page Source" or something similar as below.
 
 ![page_source](images/page_source.png)
 
 
-If you choose it, you should find that your browser has opened up a new tab that has code on it. This code will usually be HTML/CSS and maybe a bit of JavaScript. This is the code that powers the *client*, which is a fancy name for the computer that is running the code, i.e. your device. Web development also encompasses writing code for servers, and when code is written for a server, it usually won't be a part of the code you'll find with this feature. But even though you can't see the server code, it's actually a good thing. Making the server readily available to anybody puts companies, data, and people at risk of being used by malicious hackers.
+If you choose it, you should find that your browser has opened up a new tab that has code on it. This code will usually be HTML/CSS and maybe a bit of JavaScript. This is the code that powers the *client*, which is a fancy name for the computer that is running the code, i.e. your device. Web development also encompasses writing code for servers, and when code is written for a server, it usually won't be a part of the code you'll find with this feature. This is done by design. Making the server's code publicly accessible allows hackers an easy opportunity to scope out vulnerabilities and back doors to the server.
 
 Take a look at the code that comes up, see how well you understand it. When working on your web development skills, you can use source code like that as your inspiration for your code. It can also help you understand how others have done certain things. Say, for example, you want to know how your favorite website displays some data. The page source can be very helpful in learning how to make your own websites better.
 
