@@ -61,8 +61,7 @@ You can preview your website if you open your file on a web browser form your lo
 ## Jekyll
 Jekyll is a static site generator that can be used with GitHub pages. Jekyll gathers all your content, renders all of your HTML, CSS, Markdown, and Liquid (a template language), and outputs a static website. It makes managing your website easier as it uses templates (layouts) and allows you to focus on the content.
 
-I will be going over the basics and how to get started with Jekyll. I recommend following this section if you are comfortable with basic HTML and understand the general flow of building a website.
-
+This section will cover how to get started with Jekyll. A general understanding of HTML and the structure of a website will be helpful for this section.
 
 ### Steps
 1. We will be using the terminal set up Jekyll. Jekyll is a RubyGem, so first we need to install a Ruby environment then the Jekyll package. Ruby is a programming language, and RubyGem is a package manager for Ruby. For installing software, I recommend getting [Homebrew](https://brew.sh/). Homebrew is a software package manager for macOS and Linux that makes installing software easily.
