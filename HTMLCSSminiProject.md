@@ -1,8 +1,6 @@
 # HTML and CSS Basics
 
-Good Evening, Fellow Hackers! 
-
-In this mini project, we will build webpages using only HTML and CSS.
+In this mini project, we will build a simple webpage using only HTML and CSS.
 
 ## 1) Plan out content
 
