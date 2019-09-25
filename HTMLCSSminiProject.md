@@ -4,7 +4,7 @@ In this mini project, we will build a simple webpage using only HTML and CSS.
 
 ## 1) Plan out content
 
-When creating a static site, the main goal is share some information. First, decide what you want to disply by writing up something worth sharing or picking a filler text ([lorem ipsum](https://www.lipsum.com/) is a classic). 
+When creating a static site, the main goal is share some information. First, decide what you want to display by writing up something worth sharing or picking a filler text ([lorem ipsum](https://www.lipsum.com/) is a classic). 
 
 ## 2) Create your initial files
 
