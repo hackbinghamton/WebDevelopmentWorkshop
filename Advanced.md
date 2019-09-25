@@ -9,10 +9,5 @@ For anyone that is interested in a deeper-dive into React.JS, [this guide](https
 * Tests and debugging
 * Deployment
 
-
 # Resources
 * [React.JS Documentation](https://reactjs.org/docs/getting-started.html)
-
-# Projects
-
-
