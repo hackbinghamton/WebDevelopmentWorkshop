@@ -1,20 +1,20 @@
 # HTML and CSS Basics
 
-Good Evening Fellow Hackers! In this **Mini Project** we will build webpages using only HTML and CSS.
+Good Evening, Fellow Hackers! 
 
-## STEP ONE -- plan out content.
+In this mini project, we will build webpages using only HTML and CSS.
 
-Write up something worth sharing, or decide on your filler text. ([lorem ipsum] is a classic)
+## 1) Plan out content
 
-[lorem ipsum]: https://www.lipsum.com/
+When creating a static site, the main goal is share some information. First, decide what you want to disply by writing up something worth sharing or picking a filler text ([lorem ipsum](https://www.lipsum.com/) is a classic). 
 
-## STEP TWO -- create your initial files.
+## 2) Create your initial files
 
-We start our website with files named index.html and style.css
+We start our website with files named `index.html` and `style.css`
 
-If you're in Windows, you can create and edit these HTML and CSS files in Notepad. Open a blank page, hit save as, and change the file type to All. If the names end in .html and .css, Notepad will recognize the file types automatically.
+Note: If you're in Windows, you can create and edit these HTML and CSS files in Notepad. Open a blank page, hit save as, and change the file type to All. If the names end in .html and .css, Notepad will recognize the file types automatically.
 
-Now we link our files like this:
+To link the `index.html` to a `style.css` file, use the `<link>` tag in your `index.html` file
 
 ```
 <!DOCTYPE html>
@@ -29,13 +29,14 @@ Now we link our files like this:
 </html>
 ```
 
-This text block should be placed in the index.html file. Change lines title and h1 to better suit your content!
+Don't forget to change out the content for the `title` and `h1` tags to better suit your site!
 
-**At any point from now on you can view your website by clicking the html file from the file manager and opening it in any web browser.**
+**To view your website, click the html file from the file manager and open it in any web browser.**
 
-## STEP THREE -- section off your page and add content.
+## 3) Section off your page by dividing up content
 
-If you want a multipage website, head over to the README and grab some links to one of our many quality tutorials; otherwise, change the body section of your HTML file so it has sections that look like this:
+Instead of having all of the content as one giant paragraph, you probably want to section off the content on your page so it's easier to read and navigate. 
+For example, you can use `<section>` and `<div>` tags to divide the body section of the `index.html` file so it looks something like this:
 
 ```
 <main>
@@ -59,13 +60,13 @@ If you want a multipage website, head over to the README and grab some links to 
    </section>
 </main>
 <footer>
-  Copyleft, 2019         
+  Copyleft, 2019
 </footer>
 ```
 
-# STEP FOUR -- CSS Formatting.
+# 4) Add some CSS Formatting 
 
-Next, write your stylesheet using the CSS links back in the README. Below is the CSS for my website thus far.
+To format your webpage, add a stylesheet! Stylesheets let you specify things like the position of the content, font styles, margins, and more. Here's a sample `style.css` file:
 
 ```
 body {
@@ -99,20 +100,20 @@ section h3 {
 }
 ```
 
-As you edit your CSS pull up your website (by clicking the HTML file from the file explorer and opening it in your web browser) and see how you like the changes you're making.
+As you edit your CSS, pull up your website (by clicking the HTML file from the file explorer and opening it in your web browser) and see if you like the changes the way you're formatting your content.  
 
-# STEP FIVE -- CSS Backgrounds
+## CSS Backgrounds
 
-To add images to your background, add this text to the bottom of section{} in your CSS:
+To add images to your background, add this text to the bottom of section{} in your `style.css`:
 
 ```
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 ```
 
-and at the bottom of CSS add something like this:
+and at the bottom of `style.css`, add something like this:
 
 ```
 #joke1 {
@@ -124,4 +125,4 @@ and at the bottom of CSS add something like this:
 }
 ```
 
-Note that the pound signs correspond to the section ids in your HTML and the URLs link to images you have saved in the SAME FOLDER of your drive as the HTML file.
+Note that the pound signs correspond to the section ids (`<section id="value">`) in your `index.html` and the URLs link to images you have saved in the *SAME FOLDER* of your drive as the `index.html`  file.
