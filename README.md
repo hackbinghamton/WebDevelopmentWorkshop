@@ -8,6 +8,8 @@ For those who may already feel comfortable building static webpages with HTML/CS
 
 Lastly, if you're already experienced in web development, check out the [advanced section](Advanced.md). The section covers React, a JavaScript library for building user interfaces. React has a ton of its own libraries and packages, each of which alter its capabilities significantly. This repository won't be able to touch upon all of the libraries, but be sure to check out the [React documentation](https://reactjs.org/docs/hello-world.html) if you're curious and want to learn more!
 
+Additionally, if you're curious about how to host a website, check out these [web hosting resources](WebsiteHostingResources.md).
+
 # Feedback
 
 If you attended our workshop on 9/25/19, please leave feedback [here](https://forms.gle/P4TQ4NgPSHghCucd7).
