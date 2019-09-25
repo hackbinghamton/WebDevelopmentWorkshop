@@ -62,7 +62,7 @@ For example, you can use `<section>` and `<div>` tags to divide the body section
 </footer>
 ```
 
-# 4) Add some CSS Formatting 
+## 4) Add some CSS Formatting 
 
 To format your webpage, add a stylesheet! Stylesheets let you specify things like the position of the content, font styles, margins, and more. Here's a sample `style.css` file:
 
@@ -100,7 +100,7 @@ section h3 {
 
 As you edit your CSS, pull up your website (by clicking the HTML file from the file explorer and opening it in your web browser) and see if you like the changes the way you're formatting your content.  
 
-## CSS Backgrounds
+### CSS Backgrounds
 
 To add images to your background, add this text to the bottom of section{} in your `style.css`:
 
