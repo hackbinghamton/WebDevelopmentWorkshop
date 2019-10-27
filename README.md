@@ -12,4 +12,4 @@ Additionally, if you're curious about how to host a website, check out these [we
 
 # Feedback
 
-If you attended our workshop on 9/25/19, please leave feedback [here](https://forms.gle/P4TQ4NgPSHghCucd7).
+If you attended our workshop, please leave feedback [here](https://forms.gle/P4TQ4NgPSHghCucd7).
