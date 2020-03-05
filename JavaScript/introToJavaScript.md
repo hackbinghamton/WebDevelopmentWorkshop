@@ -80,14 +80,35 @@ while (a == 5){
 ```
 This prints ```"spam"``` only once.
 
-By reassigning the variable ```a``` to 6, the condition ```a == 5``` that is specified in the while loop is no longer true. This is a mere example- there are much more clear cut ways to execute this idea, some of which will soon be mentioned.
+By reassigning the variable ```a``` to 6, the condition ```a == 5``` that is specified in the while loop is no longer true. This is a mere example- there are much more clear cut ways to execute this idea, some of which will are referenced below.
 
-The next loop is called the ***for loop***. This is essentially a more specific version of a while loop that can be customized more easily. The syntax for a for loop in JavaScript is as follows:
+The next loop is called the ***for loop***. This is essentially a more specific version of a while loop that can be customized more easily if you want to execute something that isn't indefinite. The syntax for a for loop in JavaScript is as follows:
 ```
-for(//initialization;//condition;//final expression){
-    //code here
+for([initialization]; [condition]; [final expression]){
+    [code here]
 }
 ```
+If you've programmed in a language other than Python, you probably know the drill. The ***initialization*** part of the for loop is executed once, the ***condition*** statement is evaluated at the beginning of each loop iteration, and the ***final expression*** is executed at the end of each loop iteration.
+
+Javascript also has other variations of the ***for*** and ***while*** loops, such as ```for/in```,
+```for/of```, and ```do/while```. Here is the syntax for all of those statements
+
+``
+for ([variable] in [object]){
+    [code]
+}
+
+for ([variable] of [object]){
+    [code]
+}
+
+do {
+    [code]
+}
+while ([condition])
+```
+
+With that being said, lets move on to ***conditional*** statements
 
 #### Conditionals
 
