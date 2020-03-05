@@ -11,7 +11,7 @@ In this section, you'll learn
 ### Prerequisites
 Before starting this section, you should have an understanding of
 1. How to create a file with an editor of your choice
-2. Basic knowledge of HTML and CSS [Section](Link) <!-- nav to html css tut !-->
+2. Basic knowledge of [HTML and CSS](Link) (link to our HTML/CSS tutorial here!)<!-- nav to html css tut !-->
 3. A small amount of experience with at least one previous programming language
 
 ### Goal
@@ -56,7 +56,16 @@ Prints
 Now that we have some understanding of variables, lets talk about loops, conditional statements and logic in JavaScript.
 
 #### Loops
-First in loops, the ***while loop***. A while loop will run indefinitely based on its specified condition until that condition becomes false.
+First in loops, the ***while loop***. A while loop will run indefinitely based on its specified condition until that condition becomes false. Here's an example that both shows the syntax of the while loop and how it works:
+
+```
+var a = 5
+
+while (a == 5){
+    console.log("spam")
+}
+```
+This will print the string ```spam``` indefinitely because in this code, a is always equal to 5 (you can try this in Codepen but you'll probably have to reload the page after).
 
 #### Conditionals
 
