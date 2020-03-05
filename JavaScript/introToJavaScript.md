@@ -38,8 +38,22 @@ Lets also discuss comment syntax. Comment syntax in JavaScript is the exact same
 
 Finally, lets talk about **variable** syntax. JavaScript's variable syntax is kind of like a combination of Python and C's- while you don't have to declare a variable's exact type, you still have to use some prerequisite keyword before making a variable. That keyword is ```var```. You can create a variable without assigning it to a value by ***initializing*** it with ```var myValue``` (remember, there is no need for a semicolon but you can still use one if you like). The next step is to ***assign*** the variable to a type. You do this with ```myValue = [type]```, where type is the value of the variable. It is important to note, however, that you can initialize and assign a variable in one line with ```var myValue = [type]```.
 
-JavaScript has seven different data types you can assign your variables to: ```number```,  ```string```,  ```boolean```,  ```null```,  ```undefined```,  ```symbol``` and  ```object```. All of these can be created by setting your variable name equal to the type you want. For some types, it is as easy as setting your variable equal to the type itself (one example is ```var myValue = null```). For others, however, you will need to follow JavaScript's syntax that allows you to signify that your variable is a specific type. Thankfully, this is relatively simple, and if you have experience with other programming languages, you probably know the deal- a string is created when you use ```" "``` (example ```var myString = "A string"```), and a number is created by using a numerical value (example ```var myNum = 2```).
+JavaScript has seven different data types you can assign your variables to: ```number```,  ```string```,  ```boolean```,  ```null```,  ```undefined```,  ```symbol``` and  ```object```. All of these can be created by setting your variable name equal to the type you want. For some types, it is as easy as setting your variable equal to the type itself (one example is ```var myValue = null```). For others, however, you will need to follow JavaScript's syntax that allows you to signify that your variable is a specific type. Thankfully, this is relatively simple, and if you have experience with other programming languages, you probably know the deal- a string is created when you use ```" "``` (example ```var myString = "A string"```), and a number is created by using a numerical value (example ```var myNum = 2```). Variables can also be ***reassigned***. Try creating a variable ```a``` and setting it equal to a value on one line, then setting it to a different value below it.
+
+For example:
+```
+var myVar = "Hi"
+var myVar = 32
+console.log(myVar)
+```
+Prints
+```
+32
+```
 
 ### The Nitty Gritty: Loops, Logic and Validating User Input
 
 Now that we have some understanding of variables, lets talk about loops, if statements and logic in JavaScript.
+
+#### Loops
+First in loops, the ***while loop***. A while loop will run indefinitely based on its specified condition until that condition becomes false.
