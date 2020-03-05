@@ -67,6 +67,8 @@ while (a == 5){
 ```
 This will print the string ```spam``` indefinitely because in this code, a is always equal to 5 (you can try this in Codepen but you'll probably have to reload the page after).
 
+Make note of the use of ```==``` instead of ```=``` in the loop above- this will be important later.
+
 #### Conditionals
 
 #### Boolean Logic
