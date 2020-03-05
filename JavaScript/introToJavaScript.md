@@ -51,7 +51,7 @@ Prints
 32
 ```
 
-### The Nitty Gritty: Loops, Logic and Validating User Input
+### Loops, Conditionals and Logic
 
 Now that we have some understanding of variables, lets talk about loops, conditional statements and logic in JavaScript.
 
@@ -67,8 +67,30 @@ while (a == 5){
 ```
 This will print the string ```spam``` indefinitely because in this code, a is always equal to 5 (you can try this in Codepen but you'll probably have to reload the page after).
 
-Make note of the use of ```==``` instead of ```=``` in the loop above- this will be important later.
+Like in many other languages, we use ```==``` instead of ```=``` in the loop above. ```=``` is for ***assigning***, while ```==``` is for ***comparing***.
+
+We can manually break out of the for loop by slightly adjusting our code:
+```
+var a = 5
+
+while (a == 5){
+    console.log("spam")
+    a = 6
+}
+```
+This prints ```"spam"``` only once.
+
+By reassigning the variable ```a``` to 6, the condition ```a == 5``` that is specified in the while loop is no longer true. This is a mere example- there are much more clear cut ways to execute this idea, some of which will soon be mentioned.
+
+The next loop is called the ***for loop***. This is essentially a more specific version of a while loop that can be customized more easily. The syntax for a for loop in JavaScript is as follows:
+```
+for(//initialization;//condition;//final expression){
+    //code here
+}
+```
 
 #### Conditionals
 
 #### Boolean Logic
+
+### The Nitty Gritty: JavaScript Meets HTML
