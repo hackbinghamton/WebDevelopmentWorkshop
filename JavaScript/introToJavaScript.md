@@ -4,15 +4,15 @@
 
 ### What You'll Learn
 In this section, you'll learn
-1. Basic JavaScript
-2. Building on pre-existing HTML frameworks and using elements such as buttons to trigger JavaScript code
-3. Thing 3
+1. Basic JavaScript (syntax and more)
+2. User input and logic
+3. Building on pre-existing HTML frameworks and using elements such as buttons to trigger JavaScript code
 
 ### Prerequisites
 Before starting this section, you should have an understanding of
 1. How to create a file with an editor of your choice
 2. Basic knowledge of HTML and CSS [Section](Link) <!-- nav to html css tut !-->
-3.
+3. A small amount of experience with at least one previous programming language
 
 ### Goal
 At the end of this section, you should be able to add interactivity to your website via JS!
@@ -34,10 +34,12 @@ Returns
 <br />
 ![--](img/Alert.PNG)
 
-Lets also discuss comment syntax. Comment syntax in JavaScript is the exact same as in C, Java and other languages. Single line comments are made with ```//Your comment here```, and multi-line comments are made with ```/* Your longer comment here */```.
+Lets also discuss comment syntax. Comment syntax in JavaScript is the exact same as in C, Java and some other languages. Single line comments are made with ```//Your comment here```, and multi-line comments are made with ```/* Your longer comment here */```.
 
-Finally, lets talk about ***variable*** syntax. JavaScript's variable syntax is kind of like a combination of Python and C's- while you don't have to declare a variable's exact type, you still have to use some prerequisite keyword before making a variable. That keyword is ```var```. You can create a variable without assigning it to a value by ***initializing*** it with ```var myValue``` (remember, there is no need for a semicolon but you can still use one if you like). The next step is to ***assign*** the variable to a type. You do this with ```myValue = [type]```, where type is the value of the variable. It is important to note, however, that you can initialize and assign a variable in one line with ```var myValue = [type]```.
+Finally, lets talk about **variable** syntax. JavaScript's variable syntax is kind of like a combination of Python and C's- while you don't have to declare a variable's exact type, you still have to use some prerequisite keyword before making a variable. That keyword is ```var```. You can create a variable without assigning it to a value by ***initializing*** it with ```var myValue``` (remember, there is no need for a semicolon but you can still use one if you like). The next step is to ***assign*** the variable to a type. You do this with ```myValue = [type]```, where type is the value of the variable. It is important to note, however, that you can initialize and assign a variable in one line with ```var myValue = [type]```.
 
 JavaScript has seven different data types you can assign your variables to: ```number```,  ```string```,  ```boolean```,  ```null```,  ```undefined```,  ```symbol``` and  ```object```. All of these can be created by setting your variable name equal to the type you want. For some types, it is as easy as setting your variable equal to the type itself (one example is ```var myValue = null```). For others, however, you will need to follow JavaScript's syntax that allows you to signify that your variable is a specific type. Thankfully, this is relatively simple, and if you have experience with other programming languages, you probably know the deal- a string is created when you use ```" "``` (example ```var myString = "A string"```), and a number is created by using a numerical value (example ```var myNum = 2```).
 
-## The Nitty Gritty: Validating User Input
+### The Nitty Gritty: Loops, Logic and Validating User Input
+
+Now that we have some understanding of variables, lets talk about loops, if statements and logic in JavaScript.
