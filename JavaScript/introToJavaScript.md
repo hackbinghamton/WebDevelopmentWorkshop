@@ -31,7 +31,11 @@ Example:
 alert("HEY!")
 ```
 Returns
-<br /> 
+<br />
 ![--](img/Alert.png)
 
 Lets also discuss comment syntax. Comment syntax in JavaScript is the exact same as in C, Java and other languages. Single line comments are made with ```//Your comment here```, and multi-line comments are made with ```/* Your longer comment here */```.
+
+Finally, lets talk about variable syntax. JavaScript's variable syntax is kind of like a combination of Python and C's- while you don't have to declare a variable's exact type, you still have to use some prerequisite keyword before creating a variable. That keyword is ```var```. You can create a variable without assigning it to a value with ```var myValue``` (remember, there is no need for a semicolon but you can still use one if you like).
+
+## The Nitty Gritty: Validating User Input
