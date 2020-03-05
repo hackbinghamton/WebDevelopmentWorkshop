@@ -31,6 +31,6 @@ Example:
 alert("HEY!")
 ```
 Returns
-![](img/Alert.png)
+![--](img/Alert.png)
 
 Lets also discuss comment syntax. Comment syntax in JavaScript is the exact same as in C, Java and other languages. Single line comments are made with ```//Your comment here```, and multi-line comments are made with ```/* Your longer comment here */```.
