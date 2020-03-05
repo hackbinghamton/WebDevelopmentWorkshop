@@ -108,7 +108,7 @@ do {
 while ([condition])
 ```
 
-With that being said, lets move on to ***conditional*** statements
+With that being said, lets move on to conditional statements.
 
 #### Conditionals
 
