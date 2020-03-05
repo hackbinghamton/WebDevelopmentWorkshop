@@ -42,9 +42,9 @@ JavaScript has seven different data types you can assign your variables to: ```n
 
 For example:
 ```
-var myVar = "Hi"
-var myVar = 32
-console.log(myVar)
+var a = "Hi"
+var a = 32
+console.log(a)
 ```
 Prints
 ```
@@ -53,7 +53,11 @@ Prints
 
 ### The Nitty Gritty: Loops, Logic and Validating User Input
 
-Now that we have some understanding of variables, lets talk about loops, if statements and logic in JavaScript.
+Now that we have some understanding of variables, lets talk about loops, conditional statements and logic in JavaScript.
 
 #### Loops
 First in loops, the ***while loop***. A while loop will run indefinitely based on its specified condition until that condition becomes false.
+
+#### Conditionals
+
+#### Boolean Logic
