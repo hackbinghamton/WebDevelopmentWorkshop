@@ -93,7 +93,7 @@ If you've programmed in a language other than Python, you probably know the dril
 Javascript also has other variations of the ***for*** and ***while*** loops, such as ```for/in```,
 ```for/of```, and ```do/while```. Here is the syntax for all of those statements
 
-``
+```
 for ([variable] in [object]){
     [code]
 }
