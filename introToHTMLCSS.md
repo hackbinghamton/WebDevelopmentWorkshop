@@ -160,7 +160,9 @@ We can also set **borders** on elements. Like text, you can set the color of a b
 Now we will take a look at how to position elements on the screen with CSS.
 
 First, let's take a look at using **float**.  Using float allow you to place an element to the left or to the right. As pictured below (image taken from [this website](https://css-tricks.com/all-about-floats/)):
+
 ![](https://i1.wp.com/css-tricks.com/wp-content/csstricks-uploads/web-layout.png?resize=540%2C240&ssl=1)
+
 Here's an example of implementing the float attribute to all div elements:
 
 ```css
