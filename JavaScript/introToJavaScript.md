@@ -51,6 +51,8 @@ Prints
 32
 ```
 
+This is also a good time to note that JavaScript, like Python, is an ***interpreted*** language. Unlike ***compiled*** languages such as C, JavaScript code is executed line by line and does not need to be compiled before it is ran. This has its advantages and disadvantages, one primarily being that compiled languages will always be faster.
+
 ### Loops, Conditionals and Logic
 
 Now that we have some understanding of variables, lets talk about loops, conditional statements and logic in JavaScript.
@@ -91,7 +93,7 @@ for([initialization]; [condition]; [final expression]){
 If you've programmed in a language other than Python, you probably know the drill. The ***initialization*** part of the for loop is executed once, the ***condition*** statement is evaluated at the beginning of each loop iteration, and the ***final expression*** is executed at the end of each loop iteration.
 
 Javascript also has other variations of the ***for*** and ***while*** loops, such as ```for/in```,
-```for/of```, and ```do/while```. Here is the syntax for all of those statements
+```for/of```, and ```do/while```. Here is the syntax for all of those statements:
 
 ```
 for ([variable] in [object]){
@@ -111,6 +113,8 @@ while ([condition])
 With that being said, lets move on to conditional statements.
 
 #### Conditionals
+
+
 
 #### Boolean Logic
 
