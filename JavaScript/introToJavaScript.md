@@ -51,7 +51,7 @@ Prints
 32
 ```
 
-This is also a good time to note that JavaScript, like Python, is an ***interpreted*** language. Unlike ***compiled*** languages such as C, JavaScript code is executed line by line and does not need to be compiled before it is ran. This has its advantages and disadvantages, one primarily being that compiled languages will always be faster.
+This is also a good time to note that JavaScript, like Python, is an ***interpreted*** language. Unlike ***compiled*** languages such as C, JavaScript code is executed line by line and does not need to be compiled before it is ran. This has its advantages and disadvantages, one advantage being portability and disadvantage being that compiled languages will always be faster.
 
 ### Loops, Conditionals and Logic
 
