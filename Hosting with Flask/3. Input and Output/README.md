@@ -1,4 +1,4 @@
-# Using Input and Output with Flask
+# Input and Output with Flask
 ## Overview
 
 ### What You'll Learn
