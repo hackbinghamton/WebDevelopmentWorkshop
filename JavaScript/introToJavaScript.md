@@ -10,9 +10,8 @@ In this section, you'll learn
 
 ### Prerequisites
 Before starting this section, you should have an understanding of
-1. How to create a file with an editor of your choice
-2. Basic knowledge of [HTML and CSS](Link) (link to our HTML/CSS tutorial here!)<!-- nav to html css tut !-->
-3. A small amount of experience with at least one previous programming language
+1. Basic knowledge of [HTML and CSS](Link) (link to our HTML/CSS tutorial here!)<!-- nav to html css tut !-->
+2. A small amount of experience with at least one previous programming language
 
 ### Goal
 At the end of this section, you should be able to add interactivity to your website via JS!
