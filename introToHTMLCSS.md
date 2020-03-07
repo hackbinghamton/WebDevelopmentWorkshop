@@ -56,10 +56,19 @@ The last HTML element we will look at in depth is the **div** (`<div>`). This ta
 ```
 
 ## CSS Selection (`class` and `id`)
-Now that we have a basic website in the works, we want it to look pretty! You probably do not want your website to be just black text on a white background. In HTML, we can use the `style` attribute of elements to specify how we want them displayed. CSS is an clean way to set the style of your HTML elements from outside of the HTML file. All our CSS work should be contained in another file that ends with "`.css`". To connect your HTML and CSS files, you will want to add this line to your HTML file (before the body tag):
+Now that we have a basic website in the works, we want it to look pretty! You probably do not want your website to be just black text on a white background. In HTML, we can use the `style` attribute of elements to specify how we want them displayed. CSS is an clean way to set the style of your HTML elements from outside of the HTML file. All our CSS work should be contained in another file that ends with "`.css`".
 
+Let's pause here to mention a couple more important HTML features. The ```<head>``` element allows us to store data about our HTML code. This might include tags such as ```<title>``` and ```<link>```, which we will talk about soon. The ```<head>``` element is placed between the `<html>` and `<body>` tags. The ```<title>``` tag defines the title of the file and tells the browser what to display for a tab on this page. You can use the ```<link>``` tag to connect your HTML and CSS files. Here is an example of the tags we just mentioned:
 ```html
-<link rel="stylesheet" href="fileName.css"/>
+    <html>
+	    <head>
+		    <title> This is the title! </title>
+		    <link rel="stylesheet" href="fileName.css"/>
+		</head>
+		<body>
+			<!-- HTML code goes here-->
+		</body>
+	</html>
 ```
 
 CSS uses "classes" and "IDs" to control which elements we are altering the style of. **Multiple elements can be in a class, but an ID is unique to one element.** Let's take a look at the difference in how classes and IDs are used.
@@ -89,7 +98,7 @@ p{
     background-color:yellow;
 }
 ```
-    
+
 Lastly, if you want to apply certain style rules to all of your elements, you can do the following:
 
 ```css
@@ -178,7 +187,9 @@ p{
     display:inline-block;
 }
 ```
-
+Take a look at the difference between using ```float``` and ```inline-block```:
+![How text flows around a floated block and an inline-block](http://www.vanseodesign.com/blog/wp-content/uploads/2012/11/floats-inline-blocks.png)
+Shoutout to the website that image is from, vanseo desgin! They have more information on using ```float``` vs. ```inline-block```, if you follow [this link](https://vanseodesign.com/css/inline-blocks/)!
 ## Cool CSS Things
 So far we have covered some simple CSS material that will make our HTML file more exciting. We can do even more to make our website look fabulous! Now we will cover fading, rounded corners, and dropdowns. These are only a few of the many possibilities that CSS provides. Feel free to look around online for more options!
 
@@ -215,7 +226,7 @@ The last cool CSS thing we will take a look at is **dropdowns**. This allows us 
     <div class="dropdownHidden">Surprise!</div>
 </div>
 ```
-    
+
 Notice that I set the class of the overall `div` to dropdown and the class of the `div` with the text to appear to `dropdownHidden`. Now we can use CSS to describe what these classes do. The CSS code below will produce a dropdown. It is commented with what each attribute does.
 
 ```css
