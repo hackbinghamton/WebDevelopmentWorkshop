@@ -1,5 +1,3 @@
-﻿
-
 # Intro to HTML/CSS
 ## Overview
 
@@ -9,7 +7,8 @@ In this section, you'll learn
 2. CSS Selection
 3. Simple CSS
 4. Layouts
-5. Cool CSS Stuff
+5. Forms
+6. Cool CSS Stuff
 
 ### Prerequisites
 Before starting this section, you should have an understanding of
@@ -61,12 +60,12 @@ Now that we have a basic website in the works, we want it to look pretty! You pr
 Let's pause here to mention a couple more important HTML features. The ```<head>``` element allows us to store data about our HTML code. This might include tags such as ```<title>``` and ```<link>```, which we will talk about soon. The ```<head>``` element is placed between the `<html>` and `<body>` tags. The ```<title>``` tag defines the title of the file and tells the browser what to display for a tab on this page. You can use the ```<link>``` tag to connect your HTML and CSS files. Here is an example of the tags we just mentioned:
 ```html
 <html>
-	<head>
-		<title> This is the title! </title>
-		<link rel="stylesheet" href="fileName.css"/>
+  <head>
+	 <title> This is the title! </title>
+	 <link rel="stylesheet" href="fileName.css"/>
 	</head>
 	<body>
-		<!-- HTML code goes here-->
+			<!-- HTML code goes here-->
 	</body>
 </html>
 ```
@@ -191,6 +190,64 @@ Take a look at the difference between using ```float``` and ```inline-block```:
 ![How text flows around a floated block and an inline-block](http://www.vanseodesign.com/blog/wp-content/uploads/2012/11/floats-inline-blocks.png)
 
 Shoutout to the website that image is from, vanseo desgin! They have more information on using ```float``` vs. ```inline-block```, if you follow [this link](https://vanseodesign.com/css/inline-blocks/)!
+## Forms
+Forms let users interact with the website, whether it be by entering their information or their vote in a poll or anything of that sort. In HTML we have a handy dandy ```form``` element! This will let us get input from the user.
+
+The next element to know is ```input```. This has a ```type``` attribute, which let's us say what kind of input we want the user to give us. Our options include ```text```, ```radio```,  ```checkbox```, and many more. We will only be covering the three types mentioned, but there are many more out there that are only a google search away!
+
+First let's start with the ```text``` type. This shows a text box that takes input from the user. Here is an example of using this type:
+```html
+    <form>
+	    <label for="animal">Favorite animal:</label><br>
+	    <input type="text" id="animal" name="animal">
+    </form>
+```
+The ```label``` tag displays what will show above the text box. ```<br>``` is a line break, so the text box will appear on the next line. The ```input``` element takes the user's response.
+
+Another option for taking input from a user is the ```radio``` type. This displays a series of buttons and allows the user to choose one option. Here is an example where we want to know a student's year in school:
+```html
+    <form>  
+		<input type="radio"  id="freshman"  name="year"  value="freshman">  
+		<label for="freshman">Freshman</label><br>  
+		<input type="radio"  id="sophomore"  name="year"  value="sophomore">  
+		<label for="sophomore">Sophomore</label><br>  
+		<input type="radio"  id="junior"  name="year"  value="junior">  
+		<label for="junior">Junior</label><br>  
+		<input type="radio"  id="senior"  name="year"  value="senior">  
+		<label for="senior">Senior</label><br>
+		<input type="radio"  id="grad"  name="year"  value="grad">  
+		<label for="grad">Graduate Student</label>
+	</form>
+```
+In this example, each pair of ```input``` and ```label``` tags produces a single button. It will be labeled with the text that comes after the ```<label for="freshman">```, which is "Freshman" in this case. Then there will be a button next to the label that allows us to know what the user chose.
+
+The last input type we will look at is ```checkbox```. As expected, this displays a list of options the user can select. This input type allows the user to select as many options as they choose, including none of them. The following example is similar to the ```radio``` example, besides the obvious difference of the ```type``` attribute.
+```html
+    <form>  
+		<input type="checkbox"  id="pet1"  name="pet1"  value="cat">  
+		<label for="pet1">Cat</label><br>  
+		<input type="checkbox"  id="pet2"  name="pet2"  value="dog">  
+		<label for="pet2">Dog</label><br>  
+		<input type="checkbox"  id="pet3"  name="pet3"  value="fish">  
+		<label for="pet3">Fish</label><br>
+		<input type="checkbox"  id="pet4"  name="pet4"  value="hamster">  
+		<label for="pet4">Hamster</label><br>
+		<input type="checkbox"  id="pet5"  name="pet5"  value="rabbit">  
+		<label for="pet5">Rabbit</label>
+	</form>
+```
+This checklist finds out what pets a user owns. It would display similar to the ```radio``` type, but with checkboxes as opposed to buttons.
+
+Now the user has submitted their response to our form... what now? The ```action``` attribute will tell our site where to send the user's data from here. This attribute affects the ```form``` element. So it should be placed within the ```form``` tag, like so:
+```html
+    <form action="/foodDecider.php">
+	    <label for="food">What is your favorite food?</label>
+	    <input type="text" id="food" name="food">
+    </form>
+```
+This form asks a user what their favorite food is and sends the information to the ```foodDecider``` file. This file will actually process the information.
+
+This section will be very useful later in this workshop when we take a look at javascript and flask!
 ## Cool CSS Things
 So far we have covered some simple CSS material that will make our HTML file more exciting. We can do even more to make our website look fabulous! Now we will cover fading, rounded corners, and dropdowns. These are only a few of the many possibilities that CSS provides. Feel free to look around online for more options!
 
