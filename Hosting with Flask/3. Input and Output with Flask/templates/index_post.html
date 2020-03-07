@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <div class="container">
+        <h1>{{ spaced }}</h1>
+    <form method="POST">
+        <p>Text:</p>
+        <input name="text">
+        <p>Zalgo Level</p>
+        <input name="level">
+        <input type="submit" value="Zalgo Time">
+    </form>
+    </div>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <!--head: This is where metainfo about your site goes, and links to stylesheets-->
+    <head>
+        <title>AJ Stensland</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    </head>
+
+    <!--body: This is where the actual contents of your website go-->
+    <body>
+        <div class="navbar">
+            <div class="nav_item">
+                <a href="{{ url_for('index') }}">
+                    <img class="logo" src="{{ url_for('static', filename='logo.png') }}"/>
+                </a>
+            </div>
+            <div class="nav_item">
+                <a href="{{ url_for('programming') }}">Programming</a>
+            </div>
+            <div class="nav_item">
+                <a href="{{ url_for('music') }}">Music</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="content">
+                <img class="photo" src="{{ url_for('static', filename='music.png') }}"/>
+        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</div>
+    </body>
+</html>
