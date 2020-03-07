@@ -113,8 +113,30 @@ With that being said, lets move on to conditional statements.
 
 #### Conditionals
 
+First off, let's talk about the ```if``` statement in JavaScript. The syntax is pretty similar to that of C's:
+```
+if (condition)
+{
+    [statement]
+}
+```
+Like an if statement in many other languages, the statement will only execute if the condition is true.
 
+JavaScript also has ```else``` and ```else if``` statements, with similar syntax to the ```if``` statement. Here's some simple pseudo code that represents something you can use all three statements for:
+```
+if (condition1) {
+  statement1
+} else if (condition2) {
+  statement2
+} else if (condition3) {
+  statement3
+. . .
+} else {
+  statementN
+}
+```
+Now for comparative operators and booleans.
 
-#### Boolean Logic
+#### Logic & Comparative Operators
 
 ### The Nitty Gritty: JavaScript Meets HTML
