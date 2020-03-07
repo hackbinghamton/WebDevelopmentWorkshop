@@ -139,4 +139,21 @@ Now for comparative operators and booleans.
 
 #### Logic & Comparative Operators
 
+Let's talk about the type ```boolean``` that we referenced earlier. Booleans can either be ```true``` or ```false```, and are often used to "activate" and "deactivate" functions. Look back to the ```while``` loop example we discussed where if ```a``` was reassigned to a different number, it would break out of the loop. We can do this in a more clear cut way using booleans like so:
+```
+while(true)
+{
+    [code]
+    if([condition])
+    {
+        return false
+    }
+}
+```
+Using booleans and an if statement, we can make the loop run indefinitely until the condition we want is met.
+
+Like in many other languages, ```==```, known as an equality operator, is used to compare one object to another, and will return ```true``` if the two objects are equal. JavaScript has something called ***type coercion***, meaning that it if two objects being compared are different types, it will attempt to convert one to the other type. This means that something like ```1 == "1"``` will actually return ```true```.
+
+JavaScript also has something called a ***strict equality*** operator (```===```). It is the counterpart to the regular equality operator ```==``` we discussed above. Unlike the ```==```, ```===``` does ***not*** use type coercion, meaning that ```1 === "1"``` will return ```false```.
+
 ### The Nitty Gritty: JavaScript Meets HTML
