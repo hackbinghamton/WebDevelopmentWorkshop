@@ -61,12 +61,12 @@ Now that we have a basic website in the works, we want it to look pretty! You pr
 Let's pause here to mention a couple more important HTML features. The ```<head>``` element allows us to store data about our HTML code. This might include tags such as ```<title>``` and ```<link>```, which we will talk about soon. The ```<head>``` element is placed between the `<html>` and `<body>` tags. The ```<title>``` tag defines the title of the file and tells the browser what to display for a tab on this page. You can use the ```<link>``` tag to connect your HTML and CSS files. Here is an example of the tags we just mentioned:
 ```html
 <html>
-  <head>
-	 <title> This is the title! </title>
-	 <link rel="stylesheet" href="fileName.css"/>
+	<head>
+		<title> This is the title! </title>
+		<link rel="stylesheet" href="fileName.css"/>
 	</head>
 	<body>
-			<!-- HTML code goes here-->
+		<!-- HTML code goes here-->
 	</body>
 </html>
 ```
