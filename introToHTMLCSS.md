@@ -60,15 +60,15 @@ Now that we have a basic website in the works, we want it to look pretty! You pr
 
 Let's pause here to mention a couple more important HTML features. The ```<head>``` element allows us to store data about our HTML code. This might include tags such as ```<title>``` and ```<link>```, which we will talk about soon. The ```<head>``` element is placed between the `<html>` and `<body>` tags. The ```<title>``` tag defines the title of the file and tells the browser what to display for a tab on this page. You can use the ```<link>``` tag to connect your HTML and CSS files. Here is an example of the tags we just mentioned:
 ```html
-    <html>
-	    <head>
-		    <title> This is the title! </title>
-		    <link rel="stylesheet" href="fileName.css"/>
-		</head>
-		<body>
+<html>
+  <head>
+	 <title> This is the title! </title>
+	 <link rel="stylesheet" href="fileName.css"/>
+	</head>
+	<body>
 			<!-- HTML code goes here-->
-		</body>
-	</html>
+	</body>
+</html>
 ```
 
 CSS uses "classes" and "IDs" to control which elements we are altering the style of. **Multiple elements can be in a class, but an ID is unique to one element.** Let's take a look at the difference in how classes and IDs are used.
@@ -189,6 +189,7 @@ p{
 ```
 Take a look at the difference between using ```float``` and ```inline-block```:
 ![How text flows around a floated block and an inline-block](http://www.vanseodesign.com/blog/wp-content/uploads/2012/11/floats-inline-blocks.png)
+
 Shoutout to the website that image is from, vanseo desgin! They have more information on using ```float``` vs. ```inline-block```, if you follow [this link](https://vanseodesign.com/css/inline-blocks/)!
 ## Cool CSS Things
 So far we have covered some simple CSS material that will make our HTML file more exciting. We can do even more to make our website look fabulous! Now we will cover fading, rounded corners, and dropdowns. These are only a few of the many possibilities that CSS provides. Feel free to look around online for more options!
