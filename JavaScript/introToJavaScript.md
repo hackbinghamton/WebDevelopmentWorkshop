@@ -52,6 +52,16 @@ Prints
 
 This is also a good time to note that JavaScript, like Python, is an ***interpreted*** language. Unlike ***compiled*** languages such as C, JavaScript code is executed line by line and does not need to be compiled before it is ran. This has its advantages and disadvantages, one advantage being portability, and disadvantage being that compiled languages will always be faster.
 
+One more thing- functions! Like in Python, we can divide our code up into reusable parts. The syntax for a function in JS is as follows:
+```
+function myFunction() {
+    [code]
+}
+```
+You invoke your function in code outside your function's scope with ```myFunction()```. Like in many other languages, functions are super important for creating clean, effective programs.
+
+With that being said, lets move on to loops, conditionals and logic in JS!
+
 ### Loops, Conditionals and Logic
 
 Now that we have some understanding of variables, lets talk about loops, conditional statements and logic in JavaScript.
@@ -109,7 +119,7 @@ do {
 while ([condition])
 ```
 
-With that being said, lets move on to conditional statements.
+Now for conditional statements.
 
 #### Conditionals
 
@@ -179,4 +189,33 @@ Lets say we want an alert to be sent to the user if they click a button on your 
 </html>
 ```
 Now that we have the groundwork setup, let's discuss an integral part to implementing your JavaScript
-code in HTML- ```<script>```. When you use this (followed by ```</script>``` in the location where you want it to end) in your HTML code, you're basically creating a space where you can freely add JavaScript code. Another important part of implementing JS code in HTML is JavaScript's ```document.querySelector()``` function. This will more often than not be the connecting piece between the JavaScript code you put in your ```<script>``` and the web layout you created in HTML.
+code in HTML- ```<script>```. When you use this (followed by ```</script>``` in the location where you want it to end) in your HTML code, you're basically creating a space where you can freely add JavaScript code. Lets modify our HTML framework like so:
+```
+<html>
+    <body>
+        <button>I'm a button!</button>
+    </body>
+    <script>
+    </script>
+</html>
+```
+We now have an area where we can input our JS code. The next step is making the connection between our HTML element and the JS code we will put in ```<script>```. This is where JavaScript's ```document.querySelector()``` function comes in. This will more often than not be the connecting piece between the JavaScript code you put in your ```<script>``` and the web layout you created in HTML. The parameter of the function is where you input the desired HTML element that you want to be affected. For example, if I added a small paragraph tag ```<p>hi</p>``` in our existing HTML framework, I would input the following code in my ```<script>``` if I wanted JavaScript code to be executed on ```<p>```:
+```
+<script>
+document.querySelector('p') = [code]
+</script>
+```
+With that being said, lets finally put everything together and modify our code to send an alert when a button is clicked. The resulting HTML layout would look something like this:
+```
+<html>
+  <body>
+    <button>I'm a button!</button>
+  </body>
+  <script>
+    document.querySelector('button').onclick = function() {
+    alert('Ouch!');
+}
+  </script>
+</html>
+```
+In our script, we added ```onclick``` to the end of our query selector, and then defined it to a new function in which we could add our alert. When the button is clicked, the function is executed.
