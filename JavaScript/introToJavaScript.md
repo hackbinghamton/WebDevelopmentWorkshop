@@ -5,7 +5,7 @@
 ### What You'll Learn
 In this section, you'll learn
 1. Basic JavaScript (syntax and more)
-2. User input and logic
+2. User input and logic in JS
 3. Building on pre-existing HTML frameworks and using elements such as buttons to trigger JavaScript code
 
 ### Prerequisites
@@ -179,4 +179,4 @@ Lets say we want an alert to be sent to the user if they click a button on your 
 </html>
 ```
 Now that we have the groundwork setup, let's discuss an integral part to implementing your JavaScript
-code in HTML- ```<script>```. When you use this (followed by ```</script>``` in the location where you want it to end) in your HTML code, you're basically creating a space where you can freely add JavaScript code.
+code in HTML- ```<script>```. When you use this (followed by ```</script>``` in the location where you want it to end) in your HTML code, you're basically creating a space where you can freely add JavaScript code. Another important part of implementing JS code in HTML is JavaScript's ```document.querySelector()``` function. This will more often than not be the connecting piece between the JavaScript code you put in your ```<script>``` and the web layout you created in HTML.
