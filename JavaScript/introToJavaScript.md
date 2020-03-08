@@ -156,10 +156,27 @@ Like in many other languages, ```==```, known as an equality operator, is used t
 
 JavaScript also has something called a ***strict equality*** operator (```===```). It is the counterpart to the regular equality operator ```==``` we discussed above. Unlike the equality operator, ```===``` does ***not*** use type coercion, meaning that ```1 === "1"``` will return ```false```.
 
-Likewise, JavaScript also has the ***strict inequality*** operator (```!==```), a counterpart to the regular inequality operator (```!=```). The same principles of coercion referenced above apply, except reversed. With the regular inequality operator, ```1 != "1"``` returns ```false```, whereas if a strict inequality operator were used in that situation it would return ```true```.
+Likewise, JavaScript also has the ***strict inequality*** operator (```!==```), a counterpart to the regular inequality operator (```!```). The same principles of coercion referenced above apply, except reversed. With the regular inequality operator, ```1 != "1"``` returns ```false```, whereas if a strict inequality operator were used in that situation it would return ```true```.
 
 For the remaining comparative statements we have ```||``` (or), ```&&``` (and), ```<``` and ```>``` (less than and greater than), as well as ```<=``` and ```>=``` (less than or equal to, greater than or equal to). Note that coercion applies in ```>=``` and ```<=```.
 
 Now that we have a rough understanding of JavaScript and its syntax, lets move on to applying it in an HTML context.
 
 ### The Nitty Gritty: JavaScript Meets HTML
+
+While JavaScript can be used on its own as a programming language, one of its main uses is the interactivity it can provide when applied to a simple HTML website. For this section, Codepen will still prove useful thanks to it having HTML & CSS panels as well as a panel that displays the results of your code on a sample webpage.
+
+#### Triggering JavaScript Code in HTML
+
+An interesting thing you can do with JavaScript is choose when to activate a section of code inside your HTML layout.
+
+Lets say we want an alert to be sent to the user if they click a button on your webpage. We will first create a super simple webpage layout in the HTML panel like so:
+```
+<html>
+    <body>
+        <button>I'm a button!</button>
+    </body>
+</html>
+```
+Now that we have the groundwork setup, let's discuss an integral part to implementing your JavaScript
+code in HTML- ```<script>```. When you use this (followed by ```</script>``` in the location where you want it to end) in your HTML code, you're basically creating a space where you can freely add JavaScript code.
