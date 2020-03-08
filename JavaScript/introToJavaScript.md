@@ -283,7 +283,7 @@ Now for our first addition to our script (keep the rest of the outside HTML code
             }
 </script>
 ```
-What this does is create a variable ```x``` that is initialized to the output of whatever the user inputs in our form. With this we can easily compare x to different data types and eliminate the ones we don't like. For this, and ```if``` statement will work perfectly.
+What this does is create a variable ```x``` that is initialized to the output of whatever the user inputs in our form. With this we can easily compare x to different data types and eliminate the ones we don't like. For this, an ```if``` statement will work perfectly.
 ```html
 <script>
             function validateForm() {
