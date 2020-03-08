@@ -1,0 +1,105 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 25%;
+  max-height: 55%;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #94F4B3;
+  opacity: 0.8;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.grid-container {
+  display: grid;
+  padding: 10px;
+}
+
+.card img {
+  overflow: hidden;
+  max-width: 95%;
+}
+
+.card h1 {
+  font-size: 36px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #94F4B3;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+  background-color: #94F4B3;
+}
+
+.view {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 22px;
+  border: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 36px;
+}
+
+.view:hover {
+  background-color: white;
+  color: #94F4B3;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.leftAttribute {
+  text-align: left;
+  font-weight: 150;
+  font-size: 16px;
+  border: none;
+}
+
+
+.card button:hover {
+
+}

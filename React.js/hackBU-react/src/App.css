@@ -1,0 +1,145 @@
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+.App {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1A323F;
+  color: white;
+  height: '100vh';
+  min-height : '100vh';
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.searchBackground {
+  background-image: linear-gradient(to right, rgba(30, 57, 72) , rgba(120, 145, 203));
+  padding: 40px;
+  font-family: "Paytone One", sans-serif;
+}
+
+.container {
+  width: 95%;
+  position: absolute;
+}
+
+.searchBackground h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.searchBackground p {
+  color: white;
+}
+
+.searchBar button {
+  background-color: #D9646A;
+  border-radius: 24px;
+  height: 40px;
+  width: 80px;
+  color: white;
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+  padding: 0;
+  border: none;
+}
+
+.searchBar input {
+  height: 100%;
+  float: left;
+  width: 80%;
+  border: none;
+  border-radius: 16px;
+}
+
+.searchBar form {
+  max-width: 40%;
+  max-height: 100%;
+  background-color: white;
+  color: gray;
+  float: left;
+  justify-content: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.topnav a {
+  float: right;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.row {
+  display: inline-table;
+  position: relative;
+}
+
+.row h1 {
+  font-weight: lighter;
+}
+
+.searchBar {
+  background-color: white;
+  border-radius: 32px;
+  height: 30px;
+  padding: 20px;
+  width: 75%;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,71 @@
+.banner {
+  text-align: left;
+  font-weight: 600;
+  font-size: 42px;
+  color: #white;
+}
+
+.topnav {
+  background-color: #1E3948;
+  overflow: hidden;
+  padding: 20px;
+  color: white;
+  font-family: "Paytone One", sans-serif;
+  margin-top: 0px;
+}
+
+header {
+  margin-top: 0px;
+}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgba(214,214,214,0.25);
+}
+
+
+/* Change the color of links on hover */
+a:hover {
+  border-bottom: 1px solid white;
+}
+
+.signIn:hover {
+  border-radius: 4px;
+  border-bottom: 4px solid white;
+}
+
+.underline:hover {
+  border-bottom: 1px solid white;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.25);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
