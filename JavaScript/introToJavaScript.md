@@ -10,7 +10,7 @@ In this section, you'll learn
 
 ### Prerequisites
 Before starting this section, you should have an understanding of
-1. Basic knowledge of [HTML and CSS](Link) (link to our HTML/CSS tutorial here!)<!-- nav to html css tut !-->
+1. Basic knowledge of [HTML](Link) (link to our HTML/CSS tutorial here!)<!-- nav to html css tut !-->
 2. A small amount of experience with at least one previous programming language
 
 ### Goal
@@ -78,7 +78,7 @@ while (a == 5){
 ```
 This will print the string ```spam``` indefinitely because in this code, a is always equal to 5 (you can try this in Codepen but you'll probably have to reload the page after).
 
-Like in many other languages, we use ```==``` instead of ```=``` in the loop above. ```=``` is for ***assigning***, while ```==``` is for ***comparing***.
+Like in many other languages, we use ```==``` instead of ```=``` in the loop above. ```=``` is for ***assigning***, while ```==``` is for ***comparing*** (more on this later).
 
 We can manually break out of the for loop by slightly adjusting our code:
 ```
@@ -219,3 +219,136 @@ With that being said, lets finally put everything together and modify our code t
 </html>
 ```
 In our script, we added ```onclick``` to the end of our query selector, and then defined it to a new function in which we could add our alert. When the button is clicked, the function is executed.
+
+For our last part of the tutorial, lets create a simple form that takes in names with HTML and validate user input with JavaScript.
+
+First we'll start with a basic HTML framework as before, but this time create a function ```validateForm()``` in our ```<script>``` area. The basic layout should look something like this:
+```
+<html>
+    <head>
+        <script>
+            function validateForm() {
+                //code here
+            }
+        </script>
+    </head>
+</html>
+```
+The next step is to initialize our HTML form. We can do this by adding a ```<body>``` section under our ```<head>``` and add it in there. Here's what that will look like:
+```
+<html>
+    <head>
+        <script>
+            function validateForm() {
+                //code here
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form" onsubmit = "return validateForm()" method = "post">
+            Name: <input type="text" name="fname">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+```
+This is a lot of new information to process, so lets briefly mention how ```<form>``` works. The first thing we do is basically assign a name to our form ```form name="form"``` like we would a variable. The ```onsubmit``` element is then set to return the JS function we added, and ```method = "post"``` is used so we don't get a bad path error.
+
+The next thing we do is initialize an ```<input>``` element in our form. This is the most important part of our form because it is what allows us to allow for user input to be entered in it. ```input type = "text"``` defines a single line text input field for our user to enter information in, and ```input type="submit"``` creates a submit button.
+
+With this code alone, you will see a form where you can type your name in and submit it. However, it has zero control over user input, meaning a user can enter anything they want in it, even an empty field. JavaScript is how we counter this. What we need to do is add code to ```validateForm()``` so it will not take any input that isn't a string.
+
+Now for our first addition to our script (keep the rest of the outside HTML code the same!):
+```
+<script>
+            function validateForm() {
+                var x = document.forms["myForm"]["fname"].value
+            }
+</script>
+```
+What this does is create a variable ```x``` that is initialized to the output of whatever the user inputs in our form. With this we can easily compare x to different data types and eliminate the ones we don't like. For this, and ```if``` statement will work perfectly.
+```
+<script>
+            function validateForm() {
+                var x = document.forms["myForm"]["fname"].value
+                if (x == ""){
+                    alert("Name must be filled out")
+                    return false
+                }
+                else{
+                    alert("Thanks for your submission!")
+                }
+            }
+</script>
+```
+Now if the user inputs an empty or null value, our form will not accept it. However, there is still a problem. While the user is able to input strings, they can also input numbers, which is what we don't want. While the function ```isNumeric()``` would be incredibly useful in this situation, that is from jQuery, and we are only using pure JavaScript, which means we have to think creatively.
+
+The first thing we need to do is define our own ```isNumeric()``` function. We can do this above our ```validateForm()```.
+```
+function isNumeric(n) {
+    return //code here
+}
+```
+Here we add the parameter ```n``` in our new function so that our user's input can be tested in it. The next thing we need to do is utilize the functions vanilla JavaScript has to return a correct value. One very useful tool we can use in this situation is JavaScript's ```isNan()```. This function determines whether a value is not a number or not. If the parameter inputted into it is not a number, it will return true, and false if it is one. So, all we have to do is simply reverse its input!
+```
+function isNumeric(n) {
+    return !isNan(n)
+}
+```
+Now ```n``` will be returned only if it is a valid number. We can account for floats by putting ```parseFloat(n)``` in the parameter of ```isNan()``` instead of just ```n```, and to account for infinite numbers, we can throw an ```&& isFinite(n)``` on the end of the return statement for good measure. The final product should look something like this:
+```
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n)
+}
+```
+Now, lets modify our ```validateForm()``` with our new function.
+```
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value
+    if (x == ""){
+        alert("Name must be filled out")
+        return false
+    }
+    else if (isNumeric(x)) {
+        alert("Pleas enter a valid name")
+        return false
+    }
+    else{
+        alert("Thanks for your submission!")
+    }
+}
+```
+This should cover almost all of our bases in terms of user input. The final HTML layout will look something like this:
+```
+<html>
+<head>
+<script>
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n)
+}
+function validateForm() {
+      var x = document.forms["myForm"]["fname"].value
+  if (x == "") {
+    alert("Name must be filled out")
+    return false
+  }
+  else if (isNumeric(x)){
+    alert("Please enter a valid name")
+    return false
+  }
+  else{
+    alert("Thanks for your submission!")
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" onsubmit="return validateForm()"  method="post">
+  Name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+```
