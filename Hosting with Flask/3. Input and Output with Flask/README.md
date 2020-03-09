@@ -146,3 +146,5 @@ def survey_post():
 ```
 
 Ta-da! Now our Flask server will return a customized message, and you understand the steps of how to work with input and output on Flask!
+
+*Note:* For an example of this, check out the Zalgo text generator included in this folder.
