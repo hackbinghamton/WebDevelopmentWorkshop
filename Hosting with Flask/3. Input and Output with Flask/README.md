@@ -9,8 +9,8 @@ In this section, you'll learn
 
 ### Prerequisites
 Before starting this section, you should have 
-1. An understanding of Flask basics (**ADD LINK WHEN READY**)
-2. An understanding of templates (**ADD LINK WHEN READY**)
+1. An understanding of Flask basics
+2. An understanding of templates
 
 ### Introduction
 Now that we know how to make a basic static webpage with Flask, let's learn how to have our page interact with the user's input.
