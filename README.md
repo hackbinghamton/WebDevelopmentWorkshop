@@ -4,33 +4,19 @@
 
 In this workshop, we will be tackling several topics relating to web development -- from laying out and decorating webpages with HTML to hosting them and interacting with user input using Flask and JavaScript!
 
-## What You'll Learn:
+## Sections:
 
-### HTML and CSS:
-* **Section Title**: Section description.
-* **Section Title**: Section description.
-* **Section Title**: Section description.
+### [HTML and CSS](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Intro%20to%20HTML%20and%20CSS):
+You'll learn how to build beautiful, static websites with HTML and CSS, and how to create forms to interact with JavaScript and Flask!
 
-### Vanilla JavaScript:
-* **Section Title**: Section description.
-* **Section Title**: Section description.
-* **Section Title**: Section description.
+### [Vanilla JavaScript](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/JavaScript):
+Learn to use basic JavaScript syntax, take user input, give output, interact with HTML, and more!
 
-### React.js:
-* **Section Title**: Section description.
-* **Section Title**: Section description.
-* **Section Title**: Section description.
+### [React.js](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/React.js):
+Here, you'll learn how to build a basic React application, as well as find resources for making more advanced apps.
 
-### Hosting with Flask:
-* **Section Title**: Section description.
-* **Section Title**: Section description.
-* **Section Title**: Section description.
+### [Hosting with Flask](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask):
+Host your HTML/CSS/JS and interact with user input with Flask, a Python web framework.
 
-### GitHub Pages, Domain Names, and Jekyll:
-* **Section Title**: Section description.
-* **Section Title**: Section description.
-* **Section Title**: Section description.
-
-## Feedback
-
-If you attended our workshop, please leave feedback here **(at this link that must be regenerated)**.
+### [GitHub Pages, Domain Names, and Jekyll](add link please):
+Learn how you can host a personal website with a custom domain name using GitHub Pages and Jekyll!
