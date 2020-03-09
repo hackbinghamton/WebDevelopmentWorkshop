@@ -64,7 +64,7 @@ In 'App.js', we can see how multiple posts are rendered depending on the data re
 the logic used to create the 'Post' component can be extended to other files, such as 'NavBar.js' in order to promote code
 reuse and readability.
 
-![alt](images/appJS.png)
+![alt](images/AppJS.png)
 
 ### React-Router
 
