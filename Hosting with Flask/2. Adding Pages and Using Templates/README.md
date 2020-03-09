@@ -88,3 +88,5 @@ def index():
 ```
 
 This code will now go look for a template called `index.html` and return it to the user!
+
+*Note:* If you'd like to see a working sample of templates and new pages, check out the sample code in this folder.
