@@ -8,8 +8,8 @@ In this section, you'll learn
 
 ### Prerequisites
 Before starting this section, you should have 
-1. An understanding of Flask basics (**ADD LINK WHEN READY**)
-2. An understanding of HTML/CSS (**ADD LINK WHEN READY**)
+1. An understanding of Flask basics
+2. An understanding of HTML/CSS (https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Intro%20to%20HTML%20and%20CSS)
 
 ### Introduction
 In the previous section, you learned how to set up a barebones Flask server. In this section, you'll learn how to serve other pages and how to make your website use custom HTML and CSS. 
