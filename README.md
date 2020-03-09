@@ -18,5 +18,5 @@ Here, you'll learn how to build a basic React application, as well as find resou
 ### [Hosting with Flask](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask):
 Host your HTML/CSS/JS and interact with user input with Flask, a Python web framework.
 
-### [GitHub Pages, Domain Names, and Jekyll](add link please):
+### [GitHub Pages, Domain Names, and Jekyll](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/GitHub%20Pages%2C%20Domain%20Names%2C%20and%20Jekyll):
 Learn how you can host a personal website with a custom domain name using GitHub Pages and Jekyll!
