@@ -1,6 +1,5 @@
 import React from 'react';
 import App from './App.js';
-//import { Post } from './src/components/Post';
 import PostView from './components/PostView.js';
 import SignUp from './components/SignUp.js';
 import SignIn from './components/SignIn.js';

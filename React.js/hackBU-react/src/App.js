@@ -56,21 +56,21 @@ const App = () => {
         <h1>Featured Merch</h1>
         <div className="row">
         {featured.map(post => (
-          <Post title={post.title} postID={post.postID} image={"https://cloudraise.co/Supportr/post_images/"+post.postID+"0.jpg"} timestamp={post.timestamp} description={post.description}/>
+          <Post title={post.title} postID={post.postID} image={process.env.REACT_APP_SITENAME + "post_images/"+post.postID+"0.jpg"} timestamp={post.timestamp} description={post.description}/>
         ))
         }
         </div>
         <h1>Recently Added</h1>
         <div className="row">
           {popular.map(post => (
-            <Post title={post.title} postID={post.postID} image={"https://cloudraise.co/Supportr/post_images/"+post.postID+"0.jpg"} timestamp={post.timestamp} description={post.description}/>
+            <Post title={post.title} postID={post.postID} image={process.env.REACT_APP_SITENAME + "post_images/"+post.postID+"0.jpg"} timestamp={post.timestamp} description={post.description}/>
           ))
           }
         </div>
         <h1>Popular Merch</h1>
         <div className="row">
           {recents.map(post => (
-            <Post title={post.title} postID={post.postID} image={"https://cloudraise.co/Supportr/post_images/"+post.postID+"0.jpg"} timestamp={post.timestamp} description={post.description}/>
+            <Post title={post.title} postID={post.postID} image={process.env.REACT_APP_SITENAME + "post_images/"+post.postID+"0.jpg"} timestamp={post.timestamp} description={post.description}/>
           ))
           }
       </div>
