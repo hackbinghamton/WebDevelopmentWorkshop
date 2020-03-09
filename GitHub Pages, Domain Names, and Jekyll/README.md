@@ -1,4 +1,4 @@
-# Guide to Creating and Hosting a Website on Github Pages
+# Creating and Hosting a Website on Github Pages
 ## Overview
 * Introduction
  * What is GitHub Pages?
