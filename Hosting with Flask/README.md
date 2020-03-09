@@ -28,8 +28,8 @@ You should be good to go!
 
 ## Sections:
 
-[**1. Intro to Webservers and Flask**](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/1.%20Flask%20Hello%20World)
+[**1. Intro to Webservers and Flask**](1. Intro to Webservers and Flask)
 
-[**2. Adding Pages and Using Templates**](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/2.%20Using%20Templates)
+[**2. Adding Pages and Using Templates**]()
 
-[**3. Input and Output with Flask**](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/3.%20Input%20and%20Output)
+[**3. Input and Output with Flask**]()
