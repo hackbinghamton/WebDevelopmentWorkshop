@@ -148,3 +148,21 @@ def survey_post():
 Ta-da! Now our Flask server will return a customized message, and you understand the steps of how to work with input and output on Flask!
 
 *Note:* For an example of this, check out the Zalgo text generator included in this folder.
+
+## Project:
+
+With everything you've learned up to now, you can create a massive variety of useful websites. 
+
+Try writing a simple chatbot! How you go about the way the website responds is completely up to you -- but you must meet the following requirements:
+
+1. Have an input box for a user to send a message
+2. Keep a running history displayed of previous messages
+3. Have the bot respond to every message
+
+How you go about this is up to you, but get at it!
+
+Or, try writing one of these:
+
+1. Anagram Generator
+2. Word counting app
+3. Calculator
