@@ -28,7 +28,7 @@ You should be good to go!
 
 ## Sections:
 
-[**1. Intro to Webservers and Flask**](1. Intro to Webservers and Flask)
+[**1. Intro to Webservers and Flask**](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/1.%20Intro%20to%20Webservers%20and%20Flask)
 
 [**2. Adding Pages and Using Templates**]()
 
