@@ -30,6 +30,6 @@ You should be good to go!
 
 [**1. Intro to Webservers and Flask**](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/1.%20Intro%20to%20Webservers%20and%20Flask)
 
-[**2. Adding Pages and Using Templates**]()
+[**2. Adding Pages and Using Templates**](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/2.%20Adding%20Pages%20and%20Using%20Templates)
 
-[**3. Input and Output with Flask**]()
+[**3. Input and Output with Flask**](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/3.%20Input%20and%20Output%20with%20Flask)
