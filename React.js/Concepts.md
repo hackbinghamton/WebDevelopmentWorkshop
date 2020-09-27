@@ -2,8 +2,6 @@
 
 # Overview
 
----
-
 ## What You'll Learn
 
 In this section, you'll learn:
