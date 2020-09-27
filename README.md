@@ -9,7 +9,7 @@ In this workshop, we will be tackling several topics relating to web development
 ### [HTML and CSS](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Intro%20to%20HTML%20and%20CSS):
 You'll learn how to build beautiful, static websites with HTML and CSS, and how to create forms to interact with JavaScript and Flask!
 
-### [Vanilla JavaScript](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/JavaScript):
+### [Vanilla JavaScript](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/JavaScript/introToJavaScript.md):
 Learn to use basic JavaScript syntax, take user input, give output, interact with HTML, and more!
 
 ### [React.js](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/React.js):
