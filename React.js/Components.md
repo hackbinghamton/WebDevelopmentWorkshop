@@ -4,7 +4,7 @@
 
 Continuing from our boilerplate code, create a new file called `InputField.js`. 
 
-Like our previous file, let's add React to this file by adding this line at the top: `import React from "react";`. Now create another file called `InputField.css` (YOU CAN DOWNLOAD THE WORKSHOPS CSS FILE HERE), which you can use to style your to-be created components and on line `2`, write `import "./InputField.css";`. In summary, you should have the following code:
+Like our previous file, let's add React to this file by adding this line at the top: `import React from "react";`. Now create another file called `InputField.css` [You can download and use the CSS files here](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/React.js/CSS)), which you can use to style your to-be created components and on line `2`, write `import "./InputField.css";`. In summary, you should have the following code:
 
 ```jsx
 import React from "react";
@@ -51,7 +51,7 @@ You may be noticing here that we used `InputField` as like an HTML element. This
 
 # Creating Our To-Do Item Components
 
-Let's make another component, our to-do items. Create two files: `ToDoItem.js` and `ToDoItem.css` (YOU CAN FIND THE CSS FILE HERE).
+Let's make another component, our to-do items. Create two files: `ToDoItem.js` and `ToDoItem.css` (CSS can be found [here](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/CSS/ToDoItem.css)).
 
 Your component should look like this:
 
