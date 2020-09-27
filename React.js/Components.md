@@ -4,7 +4,7 @@
 
 Continuing from our boilerplate code, create a new file called `InputField.js`. 
 
-Like our previous file, let's add React to this file by adding this line at the top: `import React from "react";`. Now create another file called `InputField.css` [You can download and use the CSS files here](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/React.js/CSS)), which you can use to style your to-be created components and on line `2`, write `import "./InputField.css";`. In summary, you should have the following code:
+Like our previous file, let's add React to this file by adding this line at the top: `import React from "react";`. Now create another file called `InputField.css` (You can download and use the CSS files [here](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/React.js/CSS)), which you can use to style your to-be created components and on line `2`, write `import "./InputField.css";`. In summary, you should have the following code:
 
 ```jsx
 import React from "react";
