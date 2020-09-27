@@ -46,7 +46,7 @@ Comment syntax in JavaScript is the exact same as in C, Java and some other lang
 
 JavaScript's variable syntax is similar to Python and C's- while you don't have to declare a variable's exact type, you still have to use a keyword before making a variable. That keyword is ```var```. You can create a variable without assigning it to a value by ***initializing*** it with ```var myValue``` (no need for a semicolon, but you can still use one if you like).
 
-The next step is to ***assign*** the variable to a type. You do this with ```myValue = [type]```, where type is the value of the variable. Note that you can initialize and assign a variable in one line with ```var myValue = [type]```.
+The next step is to ***assign*** the variable to a type. You do this with ```myValue = type```, where type is the value of the variable. Note that you can initialize and assign a variable in one line with ```var myValue = type```.
 
 JavaScript has seven different data types you can assign your variables to: ```number```,  ```string```,  ```boolean```,  ```null```,  ```undefined```,  ```symbol``` and  ```object```. All of these can be created by setting your variable name equal to the type you want. For some types, it is as easy as setting your variable equal to the type itself (e.g. ```var myValue = null```). For others, however, you will need to follow JavaScript's syntax that allows you to signify that your variable is a specific type. Thankfully, if you have experience with other programming languages, you probably know the deal- a string is created when you use ```" "``` (example ```var myString = "A string"```), and a number is created by using a numerical value (example ```var myNum = 2```).
 
@@ -75,6 +75,8 @@ function myFunction() {
 }
 ```
 You invoke your function in code outside your function's scope by calling with (e.g. ```myFunction()```). Like in many other languages, functions are super important for creating clean, effective programs.
+
+*Exercise: Try writing a function that prints a string and call it!*
 
 ## Loops, Conditionals and Logic
 
@@ -118,6 +120,8 @@ for([initialization]; [condition]; [final expression]){
 }
 ```
 If you've programmed in a language other than Python, you probably know the drill. The ***initialization*** part of the for loop is executed once, the ***condition*** statement is evaluated at the beginning of each loop iteration, and the ***final expression*** is executed at the end of each loop iteration.
+
+*Exercise: Try creating a for loop that prints all the numbers from 45 to 60!*
 
 Javascript also has other variations of the ***for*** and ***while*** loops, such as ```for/in```,
 ```for/of```, and ```do/while```. Here is the syntax for all of those statements:
@@ -184,6 +188,8 @@ JavaScript also has something called a ***strict equality*** operator (```===```
 Likewise, JavaScript also has the ***strict inequality*** operator (```!==```), a counterpart to the regular inequality operator (```!```). The same principles of coercion referenced above apply, except reversed. With the regular inequality operator, ```1 != "1"``` returns ```false```, whereas if a strict inequality operator were used in that situation it would return ```true```.
 
 For the remaining comparative statements we have ```||``` (or), ```&&``` (and), ```<``` and ```>``` (less than and greater than), as well as ```<=``` and ```>=``` (less than or equal to, greater than or equal to). Note that coercion applies in ```>=``` and ```<=```.
+
+*Exercise: create a short program using a while loop that keeps asking the user for input until your favorite food is entered.* *Hint: You can receive user input in JavaScript with prompt("Your text here")*
 
 Now that we have a rough understanding of JavaScript and its syntax, lets move on to applying it in an HTML context.
 
