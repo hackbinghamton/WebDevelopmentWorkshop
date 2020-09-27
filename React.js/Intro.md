@@ -16,11 +16,11 @@ In this workshop, we will learn how to create a basic to-do list. Hopefully, thi
 
 [Learning the Basic React Concepts](https://www.notion.so/Learning-the-Basic-React-Concepts-edda7f054866448a8b980f57304c24e9)
 
-[Creating Our Components](https://www.notion.so/Creating-Our-Components-49ede2d1180440ddb03cf95824202c0a)
+[Creating Our Components](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Components.md)
 
-[Adding Functionality](https://www.notion.so/Adding-Functionality-7f5ae41cfbc74789b243719ff95a0d71)
+[Adding Functionality](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Functionality.md)
 
-[Project Competion, and Beyond](https://www.notion.so/Project-Competion-and-Beyond-643562f475144ae297dddb530fa36aaf)
+[Project Competion, and Beyond](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Completion.md)
 
 # Feedback
 
