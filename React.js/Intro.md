@@ -2,7 +2,6 @@
 
 ## Getting Started
 
----
 
 React.js is a JavaScript framework, created by Facebook, that speeds up the process of web development and makes it far more intuitive. It utilizes a [Virtual DOM](https://reactjs.org/docs/faq-internals.html) that can render data dependent on state using components. As you will see in this workshop, React is a powerful tool you can use to create your full-stack projects, whether they are for personal use or for large scale development. 
 
@@ -11,8 +10,6 @@ React is used by many well-known companies such as Facebook (of course!), Netfli
 In this workshop, we will learn how to create a basic to-do list. Hopefully, this will demonstrate to you the ease of use that React offers as well as the scalability that it provides. After completion of the workshop, you are encouraged to continue working on the to-do list by adding more features, or work on a new React projects. Remember: the best way to learn is to do it yourself!
 
 ## Today's Workshop Covers:
-
----
 
 [Learning the Basic React Concepts](https://www.notion.so/Learning-the-Basic-React-Concepts-edda7f054866448a8b980f57304c24e9)
 
@@ -23,7 +20,5 @@ In this workshop, we will learn how to create a basic to-do list. Hopefully, thi
 [Project Competion, and Beyond](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Completion.md)
 
 # Feedback
-
----
 
 If you attended our workshop, please leave feedback here. Fill out the form to be entered in a raffle for some HackBU swag!
