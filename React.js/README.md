@@ -11,7 +11,7 @@ In this workshop, we will learn how to create a basic to-do list. Hopefully, thi
 
 ## Today's Workshop Covers:
 
-1. [Learning the Basic React Concepts](https://www.notion.so/Learning-the-Basic-React-Concepts-edda7f054866448a8b980f57304c24e9)
+1. [Learning the Basic React Concepts](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Concepts.md)
 
 2. [Creating Our Components](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Components.md)
 
