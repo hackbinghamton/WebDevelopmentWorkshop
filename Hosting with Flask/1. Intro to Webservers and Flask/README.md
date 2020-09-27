@@ -84,11 +84,20 @@ In an editor of your choice, let's write the following:
 from flask import Flask
 
 app = Flask(__name__)
+
+
+def main():
+    app.run(debug=True)
+
+main()
+
 ```
 
-These two lines will:
+These lines will:
 1. Import the Flask class, which handles most of the behavior of the application
-2. Create a globally-accessible instance of the Flask class. 
+2. Create a globally-accessible instance of the Flask class
+3. Create a main function where we run the Flask application
+4. Execute the main() function
 
 (*Note:* Don't worry about the `__name__` bit -- it's a bit of Python heresy).
 
@@ -121,6 +130,8 @@ You should see a message stating:
  ...
 ```
 You don't have to worry about most of the messages, but the last one is of particular interest. The `127.0.0.1:5000/` is the URL that your new server is being hosted on. To see the results, go to that link! You should see your "Hello, world!" message appear.
+
+*Note:* If you're having any issues with your code, check it against the `app.py` in this folder!
 
 ## What We've Learned
 

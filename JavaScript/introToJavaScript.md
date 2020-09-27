@@ -10,7 +10,7 @@ In this section, you'll learn
 
 ### Prerequisites
 Before starting this section, you should have an understanding of
-1. Basic knowledge of [HTML](Link) (**link to our HTML/CSS tutorial here!**)
+1. Basic knowledge of [HTML](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Intro%20to%20HTML%20and%20CSS)
 2. *Optional:* A small amount of experience with at least one previous programming language
 
 ### Introduction
