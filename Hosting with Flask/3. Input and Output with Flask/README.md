@@ -17,7 +17,7 @@ Now that we know how to make a basic static webpage with Flask, let's learn how 
 
 ---
 
-# Taking Input
+## Taking Input
 
 Input over the web can come in many forms. The easiest way to recieve input to your server is via POST request.
 
@@ -54,7 +54,7 @@ Now, Flask will run the `survey()` function when someone comes to `/survey.html`
 
 Now, how do we access the data in the form?
 
-# Accessing Input
+## Accessing Input
 
 To access the data the user sent in their POST request, we'll need to import another Flask tool: `request`. With `request` we'll be able to access the inputs of any form sent to us.
 
@@ -75,7 +75,7 @@ def survey_post():
 
 Now we can use the values of their names in our code! But how would we send them back something based on what they wrote?
 
-# Replying with Output
+## Replying with Output
 
 Let's say that after someone submits their survey, we bring them to a thank you page that uses the name they provided.
 
