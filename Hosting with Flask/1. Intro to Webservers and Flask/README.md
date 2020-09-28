@@ -147,4 +147,4 @@ We can describe the way Flask works in the following steps:
 
 Write code for another page on your website (for example, `/myspecialpage`), and have it return its own HTML.
 
-Knowing this, let's move on to the [next part](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/2.%20Adding%20Pages%20and%20Using%20Templates) to learn how to add more pages to our website!
+If you're not sure how, we'll discuss in the [next part](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/2.%20Adding%20Pages%20and%20Using%20Templates) how to add more pages to our website!
