@@ -22,7 +22,7 @@ Make sure that you have Python 3 and Flask installed.
 The latest version of Python 3 for your OS can be found at https://www.python.org/downloads/.
 If using Linux of some variety, try to install it through your package manager (e.g. apt-get, pacman, etc.) instead of downloading from the website.
 
-Once Python is installed, open the command prompt and run 'pip3 install Flask'.
+Once Python is installed, open the command prompt and run `pip3 install Flask`.
 
 You should be good to go!
 
