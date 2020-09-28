@@ -141,5 +141,10 @@ We can describe the way Flask works in the following steps:
 1. Run the function with the `@app.route("/index.html")` decorator on it
     1. If the function exists, take whatever HTML is returned and send it to the user in a 200 response
     1. If the function does not exist, send back a 404 response
-    
-Knowing this, let's move on to the next part to learn how to add more pages to our website!
+
+
+## Exercise
+
+Write code for another page on your website (for example, `/myspecialpage`), and have it return its own HTML.
+
+Knowing this, let's move on to the [next part](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask/2.%20Adding%20Pages%20and%20Using%20Templates) to learn how to add more pages to our website!
