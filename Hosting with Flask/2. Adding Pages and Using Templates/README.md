@@ -16,7 +16,7 @@ In the previous section, you learned how to set up a barebones Flask server. In 
 
 ---
 
-# Adding More Pages
+## Adding More Pages
 
 If your website is like the vast majority of those on the web, you probably want more than 1 page for users to visit.
 
@@ -34,11 +34,11 @@ You can repeat this pattern with as many different pages as you'd like to add mo
 
 Something does feel a bit off about writing all of our HTML in a Python string, no? Let's fix that.
 
-# Using Templates
+## Using Templates
 
 Flask allows users to turn their HTML into "templates". To turn your raw HTML project website into a Flask webserver, we'll do the following:
 
-## 1. Changing directory structure
+### 1. Changing directory structure
 
 You'll need to use the following directory structure for your project, and fill the folders as labeled:
 ```
@@ -48,7 +48,7 @@ flask-app/
 └── templates/  <- HTML
 ```
 
-## 2. Replacing relative paths
+### 2. Replacing relative paths
 
 Anywhere your HTML has a relative path to another file (e.g. images or stylesheets), replace the path with
 
@@ -74,7 +74,7 @@ For example, let's convert this hyperlinked image to template format:
 ...
 ```
 
-## 3. Using the template in your code
+### 3. Using the template in your code
 
 Now that our templates are ready to use, we can enable our Flask application to use them. We can just use the `render_template` function imported from flask to do so. With our boilerplate code from our last section, let's add this functionality:
 
@@ -90,3 +90,7 @@ def index():
 This code will now go look for a template called `index.html` and return it to the user!
 
 *Note:* If you'd like to see a working sample of templates and new pages, check out the sample code in this folder.
+
+## Exercise
+
+Now, try adding a GIF to your website!
