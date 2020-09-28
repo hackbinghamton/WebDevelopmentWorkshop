@@ -18,6 +18,10 @@ Before starting this section, you should have an understanding of
 In this section we will learn how to create a simple website with HTML and CSS.
 
 ---
+## Editing HTML
+***The below sections will be showing you different ways of using HTML -- to follow along, try writing HTML into the HTML editor on [Codepen](https://codepen.io/pen/).***
+
+If you'd prefer, you could create a `.html` file of your choice, and double-click it to open it in your web browser, and refresh to view your changes.
 
 ## HTML Basics
 Every HTML file should begin with `<html>` and end with `</html>`. This defines the file. You will notice that every time we use a tag, which is the thing with the angle brackets we just saw, we need to end it with the same thing preceded by a "`/`".
@@ -247,7 +251,8 @@ Now the user has submitted their response to our form... what now? The ```action
 ```
 This form asks a user what their favorite food is and sends the information to the ```foodDecider``` file. This file will actually process the information.
 
-This section will be very useful later in this workshop when we take a look at javascript and flask!
+This section will be very useful later in this workshop when we take a look at JavaScript and Flask!
+
 ## Cool CSS Things
 So far we have covered some simple CSS material that will make our HTML file more exciting. We can do even more to make our website look fabulous! Now we will cover fading, rounded corners, and dropdowns. These are only a few of the many possibilities that CSS provides. Feel free to look around online for more options!
 
