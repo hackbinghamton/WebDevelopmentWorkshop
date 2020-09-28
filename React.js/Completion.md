@@ -1,4 +1,4 @@
-# Project Competion, and Beyond
+# Project Completion, and Beyond
 
 # Remove Items From Our List
 
