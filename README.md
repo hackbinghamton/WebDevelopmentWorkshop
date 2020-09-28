@@ -13,7 +13,7 @@ You'll learn how to build beautiful, static websites with HTML and CSS, and how 
 ### [Vanilla JavaScript](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/JavaScript/introToJavaScript.md):
 You'll learn to use basic JavaScript syntax, take user input, give output, interact with HTML, and more!
 
-### [GitHub Pages and Domain Names](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/GitHub%20Pages%2C%20Domain%20Names%2C%20and%20Jekyll):
+### [Hosting with GitHub Pages](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/GitHub%20Pages%2C%20Domain%20Names%2C%20and%20Jekyll):
 Now that you know how to build a webpage, you'll learn how you can host a personal website for free using GitHub Pages!
 
 ## Building Web Applications
