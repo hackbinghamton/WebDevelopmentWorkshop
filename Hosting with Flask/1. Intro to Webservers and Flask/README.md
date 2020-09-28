@@ -8,7 +8,7 @@ In this section, you'll learn
 
 ### Prerequisites
 Before starting this section, you should have 
-1. Python and Flask installed on your computer, explained [here](https://github.com/ajstensland/flask-tutorial/blob/hackbu-webdev/README.md#before-we-start)
+1. Python and Flask installed on your computer, explained [here](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask#before-we-start)
 1. An understanding of [Introductory Python](https://github.com/HackBinghamton/PythonWorkshop)
 
 ### Introduction
