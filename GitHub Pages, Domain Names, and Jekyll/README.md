@@ -1,4 +1,4 @@
-# Hosting a Website on Github Pages
+# Hosting a Website on GitHub Pages
 ## Overview
 * Introduction
  * What is GitHub Pages?
@@ -10,7 +10,7 @@
 Here, you will learn how to host your own website on GitHub Pages.
 
 ## What is GitHub Pages?
-GitHub Pages is a free hosting service that hosts static websites directly from a Github repository. A static website is a web page with fixed content, displaying the same information every time. Since we can only host static websites, there are no databases or servers that need to be configured, making GitHub Pages a great start to building your own personal website. There is no need to configure any databases or worry about server interaction using languages such as PHP, Ruby, or Python.
+GitHub Pages is a free hosting service that hosts static websites directly from a GitHub repository. A static website is a web page with fixed content, displaying the same information every time. Since we can only host static websites, there are no databases or servers that need to be configured, making GitHub Pages a great start to building your own personal website. There is no need to configure any databases or worry about server interaction using languages such as PHP, Ruby, or Python.
 
 ## What can you host with GitHub Pages?
 Anything that is static, so mainly personal websites and blogs. Since it goes hand in hand with a GitHub repository, people also use Pages to write up documentations for their product/code. Below are some examples of websites that use GitHub Pages:
@@ -52,23 +52,23 @@ You can preview your website if you open your file on a web browser from your lo
 ### From an existing repository to GitHub Pages
 1. Go to your existing repository and click on Settings.
 
-2. Scroll down to the Github Pages section, then select your master branch as a source using the drop down option. If your source is different from you master branch, select the branch you want.
+2. Scroll down to the GitHub Pages section, then select your master branch as a source using the drop down option. If your source is different from you master branch, select the branch you want.
 
-3. The page should refresh automatically. Scroll back down to the Github Pages section, and you'll see the link to your website. It may take a few moments for your website to register and display your contents.
+3. The page should refresh automatically. Scroll back down to the GitHub Pages section, and you'll see the link to your website. It may take a few moments for your website to register and display your contents.
 
 ## Website Hosting Resources
 
-Take advantage of the [Github Education Pack](https://education.github.com/pack)!!
+Take advantage of the [GitHub Education Pack](https://education.github.com/pack)!!
 
-As a student, Github provides access to a very large amount of tools for free!
+As a student, GitHub provides access to a very large amount of tools for free!
 
 Some of these include free domain names from popular domain websites:
 * [name.com](https://www.name.com/partner/github-students) - One free domain name and free Advanced Security
 * [namecheap](https://education.github.com/pack/offers#namecheap) - 1 year domain name registration on the .me TLD and 1 year SSL certificate (For example: firstNamelastName.me)
 * [.tech domains](https://get.tech/github-student-developer-pack) - One .TECH domain free for 1 year.
 
-The benefit of creating a Github Pages website and having access to free domain names is that you can redirect your website to the domain name!
+The benefit of creating a GitHub Pages website and having access to free domain names is that you can redirect your website to the domain name!
 
-For example, if your Github Pages website is accessible from `johnsmith.github.io`, and you want to change it to `johnsmith.me` (using a free namecheap domain), you can do that in your repository settings.
+For example, if your GitHub Pages website is accessible from `johnsmith.github.io`, and you want to change it to `johnsmith.me` (using a free namecheap domain), you can do that in your repository settings.
 
-Follow along with [these instructions](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages) from Github to connect your GitHub Pages website to a domain.
+Follow along with [these instructions](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages) from GitHub to connect your GitHub Pages website to a domain.
