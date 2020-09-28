@@ -18,7 +18,3 @@ In this workshop, we will learn how to create a basic to-do list. Hopefully, thi
 3. [Adding Functionality](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Functionality.md)
 
 4. [Project Completion, and Beyond](https://github.com/HackBinghamton/WebDevelopmentWorkshop/blob/master/React.js/Completion.md)
-
-# Feedback
-
-If you attended our workshop, please leave feedback here. Fill out the form to be entered in a raffle for some HackBU swag!
