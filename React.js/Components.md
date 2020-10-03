@@ -77,7 +77,7 @@ import ToDoItem from "./ToDoItem";
 
 export default function InputField() {
 ...
-		<button>Add</button>
+	<button>Add</button>
   </div>
 	<ToDoItem />
 </div>
