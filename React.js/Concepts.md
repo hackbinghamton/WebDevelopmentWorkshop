@@ -62,7 +62,7 @@ export default function App() {
 
 On lines `1` and `2`, we are simply importing React and importing our stylesheet.
 
-On line `4` we have are creating a function, `App()`, that returns... HTML?
+On line `4` we are creating a function, `App()`, that returns... HTML?
 
 Well, not HTML, but JSX. This is something really awesome about React - our HTML is within our JavaScript code, making it far easier to achieve "reactivity".
 
