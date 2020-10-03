@@ -47,7 +47,7 @@ import InputField from "./InputField";
 
 Now when you check out the live preview, you should see our newly created input field!
 
-You may be noticing here that we used `InputField` as like an HTML element. This is how we nest components within each other. `index.js` has our `App` component nested inside it, which has our `InputField` component nested inside that. As we continue with our project, we will see that nesting our components also allows information to be passed down and reusability to be very easy.
+You may be noticing here that we used `InputField` as an HTML element. This is how we nest components within each other. `index.js` has our `App` component nested inside it, which has our `InputField` component nested inside that. As we continue with our project, we will see that nesting our components also allows information to be passed down and reusability to be very easy.
 
 # Creating Our To-Do Item Components
 
