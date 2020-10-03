@@ -4,9 +4,9 @@
 
 In React, we use state to keep and modify pieces of information within a component. Let's use state inside of our `InputField` component. 
 
-In our `InputField` component, adjust the 1st line to be: `import React, { useState } from "react";`. This allows us to specify to React that we want to use it's state functionality in our component. 
+In our `InputField` component, adjust the 1st line to be: `import React, { useState } from "react";`. This allows us to specify to React that we want to use its state functionality in our component. 
 
-Now we will use state to be able to store and manipulate the current value of the input field. We want to be able to store this piece of data so that we can fill our to-do items with the user-inputted task.
+Now we will use state to store and manipulate the current value of the input field. We want to be able to store this piece of data so that we can fill our to-do items with the user-inputted task.
 
 To create a new state hook, type the following inside of our component:
 
@@ -18,27 +18,27 @@ export default function InputField() {
 ...
 ```
 
-This syntax may seem quite confusing at first, but it's really quite simple. You are creating two new things here: a `value` variable, and a `setValue()` function. We will use `value` to be able to **retrieve** the value anywhere in our component, and will use `setValue()` to **mutate** our `value` variable anywhere in our component. Finally, when we assign these to `useState("")`, we are simply telling React that this is a state hook that should be instantiated to `""` (empty string). 
+This syntax may seem quite confusing at first, but it's really quite simple. You are creating two new things here: a `value` variable and a `setValue()` function. We will use `value` to **retrieve** the value anywhere in our component, and will use `setValue()` to **mutate** our `value` variable anywhere in our component. Finally, when we assign these to `useState("")`, we are simply telling React that this is a state hook that should be instantiated to `""` (empty string). 
 
 Now that we have our state created, we can use it to keep track of the current user's input. Let's edit our JSX a bit:
 
 ```jsx
 <div className="input-container">
-        <input placeholder="Add a task" 
-							 value={value} 
-							 onChange={(e) => setValue(e.target.value)}
-				/>
-        <button>Add</button>
-      </div>
+	<input placeholder="Add a task" 
+	 	value={value} 
+	 	onChange={(e) => setValue(e.target.value)}
+	/>
+	<button>Add</button>
+</div>
 ```
 
-Inside out input tag, you can see that we are setting the value equal to our variable `value` so that we always see the most updated state, which can be done by using curley braces rather than the typical quotes you'd find in HTML. The use of curly braces allows us to get out of "HTML-like" mode, and use JavaScript code directly. You might have also noticed the use of `onChange`. `onChange` is a property that React implemented to make it easier to handle events (You can learn more about this [here](https://reactjs.org/docs/handling-events.html)). Then, we use an arrow function to call our `setValue()`, and set it to the input's target value. Now when you type in the input field, we update our `value` state, and can now use it add a new item to our to-do list. 
+Inside our input tag, you can see that we are setting the value equal to our variable `value` so that we always see the most updated state, which can be done by using curly braces rather than the typical quotes you'd find in HTML. The use of curly braces allows us to get out of "HTML-like" mode, and use JavaScript code directly. You might have also noticed the use of `onChange`. `onChange` is a property that React implemented to make it easier to handle events (You can learn more about this [here](https://reactjs.org/docs/handling-events.html)). Then, we use an arrow function to call our `setValue()`, and set it to the input's target value. Now when you type in the input field, we update our `value` state, which will be used to add a new item to our to-do list. 
 
-Let's create another state hook in our `InputField` component. Trying creating a new state hook called `items`, with the mutator `setItems`, which is instantiated to an an empty array, `[]`.
+Let's create another state hook in our `InputField` component. Trying creating a new state hook called `items`, with the mutator `setItems`, instantiated to an an empty array, `[]`.
 
 Ideally, it should look like this: `const [items, setItems] = useState([]);`. We will add this new hook to store out to-do items, which will later be mapped out onto their own `ToDoItem` components.
 
-Now let's create our first function in our component, where will add values into our to-do list array. Add the function under our state hooks, but before our return state:
+Now let's create our first function in our component, which will add values into our to-do list array. Add the function under our state hooks, but before our return state:
 
 ```jsx
 ...
@@ -54,7 +54,7 @@ const addItem = () => {
 
 This function checks the length of our value to ensure it's not empty, and then uses the [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) to merge our new value in the existing array, and finally, we reset our value. See how easy it is to use state to handle events?
 
- Just add this function into an `onClick` event in our button, and we should have the "Add" functionality ready to go! `<button onClick={addItem}>Add</button>`
+Just add this function into an `onClick` event in our button, and we should have the "Add" functionality ready to go! `<button onClick={addItem}>Add</button>`
 
 # Passing Down Data with Props
 
@@ -64,7 +64,7 @@ To get started, let's talk about [Props](https://reactjs.org/docs/components-and
 
 As you may recall, in our `ToDoItem`, we currently have the following div: `<div className="item-content">Wash the dishes</div>`. This works really well as a placeholder item, but what we really want is to have our tasks be dynamic. Let's do this by passing down "Eat a hearty breakfast" as a `prop`.
 
-Go back to `InputField.js` where your `<ToDoItem />` is called, and alter to like so: `<ToDoItem task="Eat a hearty breakfast" />`. We know created a new `prop`erty, called `task`, which the value "Eay a hearty breakfast". Now go into `ToDoItem.js`, and make the following changes:
+Go back to `InputField.js` where your `<ToDoItem />` is called, and alter to like so: `<ToDoItem task="Eat a hearty breakfast" />`. We now created a new `prop`erty, called `task`, with the value "Eat a hearty breakfast". Now go into `ToDoItem.js`, and make the following changes:
 
 ```jsx
 ...
@@ -75,7 +75,7 @@ return (
 ...
 ```
 
-As you can see, we add `props` as a parameter where our `ToDoItem` component is created, and then use the curley braces again to specify that we want to show the property of task, which we passed in above. If you check out the preview now, you should be able to see that our "Wash the dishes" task changed to "Eat a hearty breakfast". 
+As you can see, we add `props` as a parameter where our `ToDoItem` component is created, and then use the curly braces again to specify that we want to show the property of task, which we passed in above. If you check out the preview now, you should be able to see that our "Wash the dishes" task changed to "Eat a hearty breakfast". 
 
 But this is still somewhat static. The only difference here is that we are passing down our static value from the parent component. What we *really* want to do is render out our list, passing down the values as props. Let's do that!
 
