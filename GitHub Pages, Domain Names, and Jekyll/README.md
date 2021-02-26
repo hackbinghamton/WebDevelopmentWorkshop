@@ -7,16 +7,16 @@
   * From an existing repository to GitHub Pages
 
 ## Introduction
-Here, you will learn how to host your own website on GitHub Pages.
+Here, you will learn how to host your own website on GitHub Pages. This will not require prior knowledge on database usage, server set-up, PHP, Python, or Ruby.
 
 ## What is GitHub Pages?
-GitHub Pages is a free hosting service that hosts static websites directly from a GitHub repository. A static website is a web page with fixed content, displaying the same information every time. Since we can only host static websites, there are no databases or servers that need to be configured, making GitHub Pages a great start to building your own personal website. There is no need to configure any databases or worry about server interaction using languages such as PHP, Ruby, or Python.
+GitHub Pages is a free hosting service that hosts static websites directly from GitHub repositories. A static website is a web page with fixed content, displaying the same information every time. Since we can only host static websites, we cannot include databases or servers. This makes GitHub Pages best suited for building your own personal website.
 
 ## What can you host with GitHub Pages?
 Anything that is static, so mainly personal websites and blogs. Since it goes hand in hand with a GitHub repository, people also use Pages to write up documentations for their product/code. Below are some examples of websites that use GitHub Pages:
-  * http://dirkgroenen.nl/SVGMagic/ - A website explaining documentation of SVGMagic. If you take a look at its [GitHub repository](https://github.com/dirkgroenen/SVGMagic/tree/gh-pages) and go to the `gh-pages` branch, you can see the website's source files.
-  * https://government.github.com/  - A website
-  * https://artsy.github.io/ - A blog
+  * http://dirkgroenen.nl/SVGMagic/ - a website explaining documentation of SVGMagic: look at its [GitHub repository](https://github.com/dirkgroenen/SVGMagic/tree/gh-pages) and go to the `gh-pages` branch, to see the website's source files
+  * https://government.github.com/  - a webpage advocating for government adaption of Github
+  * https://artsy.github.io/ - an engineering blog
 
 ## Steps
 In order to create and host a website, a GitHub account is required. Basic Git knowledge is helpful. If you want a review of Git/GitHub, look back at to our [Introduction to Programming and Starting a Personal Project](https://github.com/HackBinghamton/IntroToProgrammingWorkshop) workshop.
@@ -63,11 +63,11 @@ Take advantage of the [GitHub Education Pack](https://education.github.com/pack)
 As a student, GitHub provides access to a very large amount of tools for free!
 
 Some of these include free domain names from popular domain websites:
-* [name.com](https://www.name.com/partner/github-students) - One free domain name and free Advanced Security
+* [name.com](https://www.name.com/partner/github-students) - 1 free domain name and free Advanced Security
 * [namecheap](https://education.github.com/pack/offers#namecheap) - 1 year domain name registration on the .me TLD and 1 year SSL certificate (For example: firstNamelastName.me)
-* [.tech domains](https://get.tech/github-student-developer-pack) - One .TECH domain free for 1 year.
+* [.tech domains](https://get.tech/github-student-developer-pack) - 1 .TECH domain free for 1 year.
 
-The benefit of creating a GitHub Pages website and having access to free domain names is that you can redirect your website to the domain name!
+If you create a GitHub Pages website and have access to a domain name, you can redirect your website to that domain name!
 
 For example, if your GitHub Pages website is accessible from `johnsmith.github.io`, and you want to change it to `johnsmith.me` (using a free namecheap domain), you can do that in your repository settings.
 
