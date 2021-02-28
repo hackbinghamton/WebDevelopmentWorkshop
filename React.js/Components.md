@@ -60,12 +60,12 @@ import React from "react";
 import "./ToDoItem.css";
 
 export default function ToDoItem() {
-  return (
-    <div className="item-container">
-      <div className="item-content">Wash the dishes</div>
-      <div className="delete-button">X</div>
-    </div>
-  );
+	return (
+ 		<div className="item-container">
+			<div className="item-content">Wash the dishes</div>
+			<div className="delete-button">X</div>
+		</div>
+	);
 }
 ```
 
