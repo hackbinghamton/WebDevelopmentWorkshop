@@ -17,7 +17,7 @@ Before starting these sections, you should have an understanding of
 In these sections, we'll discuss hosting web content with Flask servers, how to use custom HTML/CSS with them, and how to take input into your own Python code from users and send output back to them.
 
 ## Before We Start
-Make sure that you have Python 3 and Flask installed.
+***Make sure that you have Python 3 and Flask installed!*** Since we'll be running webservers for this section, we can't do this workshop on Google Colab (since Google doesn't wanna give free hosting to anyone).
 
 The latest version of Python 3 for your OS can be found at https://www.python.org/downloads/.
 If using Linux of some variety, try to install it through your package manager (e.g. apt-get, pacman, etc.) instead of downloading from the website.
