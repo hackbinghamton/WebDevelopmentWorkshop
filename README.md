@@ -24,3 +24,7 @@ Here, you'll learn how to build a basic to-do list using React, one of the most 
 
 ### [Hosting with Flask](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Hosting%20with%20Flask):
 Host your HTML/CSS/JS and handle user input on the server side with Flask, a Python web back end.
+
+---
+
+If you have any thoughts on the workshop, please fill out our [feedback form](https://forms.gle/4aGTqrkM7HeJvRMa6)!
