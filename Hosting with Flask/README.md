@@ -9,7 +9,7 @@ In these sections, you'll learn
 
 ### Prerequisites
 Before starting these sections, you should have an understanding of
-1. Have Python installed (see "Before We Start" below)
+1. Have Python and Flask installed (see "Before We Start" below)
 2. [Python Basics](https://github.com/HackBinghamton/PythonWorkshop)
 3. [HTML/CSS](https://github.com/HackBinghamton/WebDevelopmentWorkshop/tree/master/Intro%20to%20HTML%20and%20CSS) (for parts 2 and 3)
 
