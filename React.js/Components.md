@@ -15,14 +15,14 @@ Now, let's create the component itself, basing it off of our `App` component:
 
 ```jsx
 export default function InputField() {
-	return (
-		<div>
-			<div className="input-container">
-				<input placeholder="Add a task" />
-				<button>Add</button>
-			</div>
-		</div>
-	)
+    return (
+        <div>
+	    <div className="input-container">
+                <input placeholder="Add a task" />
+		<button>Add</button>
+	    </div>
+        </div>
+    )
 }
 ```
 
