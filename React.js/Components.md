@@ -32,7 +32,7 @@ Now, if you check out the live preview on the lefthand side of your sandbox, you
 
 To fix this, let's go back to our `App` component and use `InputField`. 
 
-To begin using it, we need to import our InputField component and then call it in our JSX.
+To begin using it, we'll need to import our InputField component and then call it in our JSX.
 
 ```jsx
 import "./styles.css";
