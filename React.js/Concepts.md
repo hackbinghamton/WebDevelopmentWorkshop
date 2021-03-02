@@ -44,7 +44,7 @@ If you've tried to create websites  before, you would know that building website
  for (let i = 0; i < myCollection.length; i++) {
     myCollection[i].style.color = "red";
  }
- // A bunch of examppe code to help you realize the complications of manipulating the DOM with vanilla JavaScript.
+ // A bunch of example code to help you realize the complications of manipulating the DOM with vanilla JavaScript.
  
 ```
 As you can see, we need to access the DOM every time we want to select an element, and then need to do more tedious codewriting if we want to change the properties of that code. React solves this problem by implementing a [Virtual DOM](https://reactjs.org/docs/faq-internals.html#:~:text=The%20virtual%20DOM%20(VDOM)%20is,This%20process%20is%20called%20reconciliation.). The Virtual DOM will allow us to combine the elements that makes HTML great with the elements that make JavaScritp great. In other words, rather than manipulating the DOM directly to update the screen, React uses **JSX** to allow developers to write HTML-like code within their React components, which makes changes to the Virtual DOM and updates the "real" DOM accordingly. 
