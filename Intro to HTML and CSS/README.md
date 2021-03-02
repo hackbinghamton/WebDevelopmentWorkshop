@@ -125,7 +125,8 @@ Moving on to **fonts**, we can change the font, the style, and the weight. When 
 
 ```css
 p{
-    <!--Arial is the chosen font, sans-serif is the backup in case their browser doesn't have Arial-->
+    /* This is a comment in CSS */
+    /* Arial is the chosen font, sans-serif is the backup in case their browser doesn't have Arial */
     font-family:Arial,sans-serif;
 }
 ```
@@ -294,18 +295,18 @@ Notice that I set the class of the overall `div` to dropdown and the class of th
 
 ```css
 .dropdown{
-    <!--This portion ensures that the hidden part of the dropdown will appear below the "Hover on me!" text. -->
+    /* This portion ensures that the hidden part of the dropdown will appear below the "Hover on me!" text. */
     position:relative;
     display:inline-block;
 }
 .dropdownHidden{
-    <!--Setting display to none means that this is hidden-->
+    /* Setting display to none means that this is hidden */
     display:none;
-    <!--The box shadow gives the dropdown depth-->
+    /* The box shadow gives the dropdown depth */
     box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2)
 }
 .dropdown:hover .dropdownHidden{
-    <!--This section implements the appearance of the hidden portion when the mouse hovers over the dropdown element-->
+    /* This section implements the appearance of the hidden portion when the mouse hovers over the dropdown element */
     display:block;
 }
 ```
