@@ -24,7 +24,7 @@ In this section we will learn how to create a simple website with HTML and CSS.
 If you'd prefer, you could create a `.html` file of your choice, and double-click it to open it in your web browser, and refresh to view your changes.
 
 ## HTML Basics
-Every HTML file should begin with `<html>` and end with `</html>`. This defines the file. You will notice that every time we use a tag, which is the thing with the angle brackets we just saw, we need to end it with the same thing preceded by a "`/`".
+Every HTML file should begin with `<html>` and end with `</html>`. This defines the file. You will notice that every time we use a tag, which is the thing with the angle brackets we just saw, we need to end it with the same thing preceded by a "`/`" inside the brackets.
 
 The visible portion of an HTML file is between the body tags. Below is an example of this. Don't worry if you see tags that you do not know yet, we will talk about them soon! Another important thing to know is how to write a comment in HTML, this is also indicated below.
 
@@ -38,7 +38,7 @@ The visible portion of an HTML file is between the body tags. Below is an exampl
 </html>
 ```
 
-An **HTML element** is anything between a start tag and an end tag. Elements include headings, paragraphs, breaks, and others. The **heading** (`h1`) element above gives the largest heading size. For smaller headings, try `<h2>`, `<h3>`, `<h6>`. The higher the number, the smaller the heading! The **paragraph** element is self explanatory, you can put a chunk of text here.
+A **HTML element** is anything between a start tag and an end tag. Elements include headings, paragraphs, breaks, and others. The **heading** (`h1`) element above gives the largest heading size. For smaller headings, try `<h2>`, `<h3>`, `<h6>`. The higher the number, the smaller the heading! The **paragraph** element is self explanatory, you can put a chunk of text here.
 
 Next let's look at how to **link** things in your HTML file with `<a>` elements. Below is an example. The `href` attribute tells us what website we are linking to. The text that follows will be the text to click to get to that website. By the way, an **attribute** in HTML gives more information about an element.
 
@@ -59,7 +59,7 @@ The last HTML element we will look at in depth is the **div** (`<div>`). This ta
 ```
 
 ## CSS Selection (`class` and `id`)
-Now that we have a basic website in the works, we want it to look pretty! You probably do not want your website to be just black text on a white background. In HTML, we can use the `style` attribute of elements to specify how we want them displayed. CSS is an clean way to set the style of your HTML elements from outside of the HTML file. All our CSS work should be contained in another file that ends with "`.css`".
+Now that we have a basic website in the works, we want it to look pretty! You probably do not want your website to be just black text on a white background. In HTML, we can use the `style` attribute of elements to specify how we want them displayed. CSS is a clean way to set the style of your HTML elements from outside of the HTML file. All our CSS work should be contained in another file that ends with "`.css`".
 
 Let's pause here to mention a couple more important HTML features. The ```<head>``` element allows us to store data about our HTML code. This might include tags such as ```<title>``` and ```<link>```, which we will talk about soon. The ```<head>``` element is placed between the `<html>` and `<body>` tags. The ```<title>``` tag defines the title of the file and tells the browser what to display for a tab on this page. You can use the ```<link>``` tag to connect your HTML and CSS files. Here is an example of the tags we just mentioned:
 ```html
@@ -172,7 +172,7 @@ We can also set **borders** on elements. Like text, you can set the color of a b
 
 Now we will take a look at how to position elements on the screen with CSS.
 
-First, let's take a look at using **float**.  Using float allow you to place an element to the left or to the right. As pictured below (image taken from [this website](https://css-tricks.com/all-about-floats/)):
+First, let's take a look at using **float**. Using float allows you to place an element to the left or to the right. As pictured below (image taken from [this website](https://css-tricks.com/all-about-floats/)):
 
 ![](https://i1.wp.com/css-tricks.com/wp-content/csstricks-uploads/web-layout.png?resize=540%2C240&ssl=1)
 
@@ -195,6 +195,7 @@ Take a look at the difference between using ```float``` and ```inline-block```:
 ![How text flows around a floated block and an inline-block](http://www.vanseodesign.com/blog/wp-content/uploads/2012/11/floats-inline-blocks.png)
 
 Shoutout to the website that image is from, vanseo desgin! They have more information on using ```float``` vs. ```inline-block```, if you follow [this link](https://vanseodesign.com/css/inline-blocks/)!
+
 ## Forms
 Forms let users interact with the website, whether it be by entering their information or their vote in a poll or anything of that sort. In HTML we have a handy dandy ```form``` element! This will let us get input from the user.
 
@@ -241,9 +242,9 @@ The last input type we will look at is ```checkbox```. As expected, this display
 		<label for="pet5">Rabbit</label>
 	</form>
 ```
-This checklist finds out what pets a user owns. It would display similar to the ```radio``` type, but with checkboxes as opposed to buttons.
+This checklist finds out what pets a user owns. It would display something similar to the ```radio``` type, but with checkboxes as opposed to buttons.
 
-Now the user has submitted their response to our form... what now? The ```action``` attribute will tell our site where to send the user's data from here. This attribute affects the ```form``` element. So it should be placed within the ```form``` tag, like so:
+Now that the user has submitted their response to our form... what's next? The ```action``` attribute will tell our site where to send the user's data from here. This attribute affects the ```form``` element. So it should be placed within the ```form``` tag, like so:
 ```html
     <form action="/foodDecider.php">
 	    <label for="food">What is your favorite food?</label>
@@ -255,7 +256,7 @@ This form asks a user what their favorite food is and sends the information to t
 This section will be very useful later in this workshop when we take a look at JavaScript and Flask!
 
 ## Cool CSS Things
-So far we have covered some simple CSS material that will make our HTML file more exciting. We can do even more to make our website look fabulous! Now we will cover fading, rounded corners, and dropdowns. These are only a few of the many possibilities that CSS provides. Feel free to look around online for more options!
+So far we have covered some simple CSS material that will make our HTML file more exciting. We can do even more to make our website look fabulous! Below we will cover fading, rounded corners, and dropdowns. These are only a few of the many possibilities that CSS provides. Feel free to look around online for more options!
 
 ### Fade-in and Fade-out
 
