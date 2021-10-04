@@ -31,23 +31,25 @@ If you are starting a website from a new repository, continue below. If you want
 git clone https://github.com/username/username.github.io
 ```
 
-3. Enter your project folder and create an `index.html` file to get started on your website:
+3. You will be prompted to enter your GitHub username and password. For "password," you'll want to input an access token given by GitHub. Follow [this guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to get your token and then paste it into the terminal. Don't worry if it doesn't physically appear in the terminal after you paste it – just paste and press enter.
+
+4. Enter your project folder and create an `index.html` file to get started on your website:
 ```
 cd username.github.io
 echo "Hello World" > index.html
 ```
 
-4. Add, commit, and push your changes:
+5. Add, commit, and push your changes:
 ```
 git add --all
-git commit -a -m "initial commit"
-git push -u origin master
+git commit -am "initial commit"
+git push
 ```
 You can preview your website if you open your file on a web browser from your local machine, but make sure you push your changes onto your repository in order to see the changes on your hosted site.
 
-5. Go to `https://username.github.io` to see your website up and running.
+6. Go to `https://username.github.io` to see your website up and running.
 
-6. You completed the first step of building your own website. Now, you can use HTML, CSS, and JavaScript to continue improving it!
+7. You completed the first step of building your own website. Now, you can use HTML, CSS, and JavaScript to continue improving it!
 
 ### From an existing repository to GitHub Pages
 1. Go to your existing repository and click on Settings.
