@@ -11,7 +11,7 @@
     "react-modal": "^3.8.1",
     "react-paypal-express-checkout": "^1.0.5",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.0",
+    "react-scripts": "5.0.1",
     "react-slider": "^0.11.2",
     "reactjs-dropdown-component": "^1.0.6"
   },
